@@ -10,7 +10,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>The BULL Angle Grinder 230mm 2400W pairs a 2400W motor with a 230mm wheel diameter, putting it in the heavy-duty cutting class of angle grinders.</p><table class="lg-spec-table"><tbody><tr><td>Disc / Wheel Diameter</td><td>230 mm</td></tr><tr><td>Rated Input Power</td><td>2400 W</td></tr><tr><td>No-Load Speed</td><td>6,500–8,500/min</td></tr><tr><td>Spindle Thread</td><td>M14</td></tr><tr><td>Rated Voltage</td><td>220–240V, 50Hz</td></tr><tr><td>Approx. Weight</td><td>5.2 kg</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table>',
       name: "BULL Angle Grinder 230mm 2400W",
       image:
-        "https://images.pexels.com/photos/162534/pexels-photo-162534.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOcjJJ4LK8Qfq3-na3YzQ9YbuQnxg4WIlWcug5ZAvUBA&s",
       pdf: "https://content.mymanual.info/media/instruction/Bqu/BquDfeXnHbkF2Fm8u6leufOsEHcAFTJ6Yplt9XO3.pdf",
       imageSource: "BULL WS 1214",
     },
@@ -23,8 +23,7 @@ const LINGARAJA_PRODUCTS = {
       detail:
         '<p>The BULL Angle Grinder 100mm 750W pairs a 750W motor with a 100mm wheel diameter, putting it in the compact finishing class of angle grinders.</p><table class="lg-spec-table"><tbody><tr><td>Disc / Wheel Diameter</td><td>100 mm</td></tr><tr><td>Rated Input Power</td><td>750 W</td></tr><tr><td>No-Load Speed</td><td>11,000–12,000/min</td></tr><tr><td>Spindle Thread</td><td>M10</td></tr><tr><td>Rated Voltage</td><td>220–240V, 50Hz</td></tr><tr><td>Approx. Weight</td><td>1.8 kg</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table>',
       name: "BULL Angle Grinder 100mm 750W",
-      image:
-        "https://images.pexels.com/photos/162625/pexels-photo-162625.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://m.media-amazon.com/images/I/31aMrLoycTL._AC_SS250_.jpg",
       pdf: "https://content.mymanual.info/media/instruction/1vi/1viloAJ6Nm9InvDB7fHri1E3oeZqqu32E00Ph7eT.pdf",
       imageSource: "BULL WS 1216",
     },
@@ -52,7 +51,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>The BULL Angle Grinder 230mm 2400W pairs a 2400W motor with a 230mm wheel diameter, putting it in the heavy-duty cutting class of angle grinders.</p><table class="lg-spec-table"><tbody><tr><td>Disc / Wheel Diameter</td><td>230 mm</td></tr><tr><td>Rated Input Power</td><td>2400 W</td></tr><tr><td>No-Load Speed</td><td>6,500–8,500/min</td></tr><tr><td>Spindle Thread</td><td>M14</td></tr><tr><td>Rated Voltage</td><td>220–240V, 50Hz</td></tr><tr><td>Approx. Weight</td><td>5.2 kg</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table>',
       name: "BULL Angle Grinder 230mm 2400W",
       image:
-        "https://images.pexels.com/photos/162529/pexels-photo-162529.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://5.imimg.com/data5/MJ/JJ/KD/SELLER-3525058/ag230-metal-angle-grinder-230mm-250x250.jpg",
       pdf: "https://content.mymanual.info/media/instruction/LYV/LYVqJnNu1eLlpRdDMBo2mO7Es3RZ93MKaMfjJT1G.pdf",
       imageSource: "BULL WS 1218/1219",
     },
@@ -286,7 +285,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk — ask for the exact chuck size and wattage.",
       detail:
-        "<p>BULL Impact Drill — SKU 1333409 — specific chuck size and wattage for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Chuck Range</td><td>10–16 mm</td></tr><tr><td>Typical Power Range</td><td>550–750 W</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Impact Drill — SKU 1333409 — specific chuck size and wattage for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Chuck Range</td><td>10–16 mm</td></tr><tr><td>Typical Power Range</td><td>550–750 W</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Impact Drill — SKU 1333409",
       image:
         "https://images.pexels.com/photos/8961527/pexels-photo-8961527.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -300,7 +299,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk — ask for the exact chuck size and wattage.",
       detail:
-        "<p>BULL Multi-Purpose Power Tool — SKU 0304362 — specific chuck size and wattage for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Chuck Range</td><td>10–26 mm (SDS-Plus)</td></tr><tr><td>Typical Power Range</td><td>650–900 W</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Multi-Purpose Power Tool — SKU 0304362 — specific chuck size and wattage for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Chuck Range</td><td>10–26 mm (SDS-Plus)</td></tr><tr><td>Typical Power Range</td><td>650–900 W</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Multi-Purpose Power Tool — SKU 0304362",
       image:
         "https://images.pexels.com/photos/5974382/pexels-photo-5974382.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -314,7 +313,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A genuine-fit replacement accessory for BULL wet & dry vacuum cleaners — for consistent suction after wear.",
       detail:
-        "<p>BULL Vacuum Cleaner Accessory — SKU 15030129 is a replacement/spare accessory for BULL's vacuum cleaner range.</p><table class=\"lg-spec-table\"><tbody><tr><td>Compatible With</td><td>BULL wet & dry vacuum cleaners (universal fit)</td></tr><tr><td>Material</td><td>High-grade nylon / ABS</td></tr><tr><td>Connector Size</td><td>~32–35 mm (standard hose fitting)</td></tr><tr><td>Pack Contents</td><td>1 accessory piece</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Vacuum Cleaner Accessory — SKU 15030129 is a replacement/spare accessory for BULL\'s vacuum cleaner range.</p><table class="lg-spec-table"><tbody><tr><td>Compatible With</td><td>BULL wet & dry vacuum cleaners (universal fit)</td></tr><tr><td>Material</td><td>High-grade nylon / ABS</td></tr><tr><td>Connector Size</td><td>~32–35 mm (standard hose fitting)</td></tr><tr><td>Pack Contents</td><td>1 accessory piece</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Vacuum Cleaner Accessory — SKU 15030129",
       image:
         "https://images.pexels.com/photos/3616735/pexels-photo-3616735.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -328,7 +327,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A genuine-fit replacement accessory for BULL wet & dry vacuum cleaners — for consistent suction after wear.",
       detail:
-        "<p>BULL Vacuum Cleaner Accessory — SKU 1329490 is a replacement/spare accessory for BULL's vacuum cleaner range.</p><table class=\"lg-spec-table\"><tbody><tr><td>Compatible With</td><td>BULL wet & dry vacuum cleaners (universal fit)</td></tr><tr><td>Material</td><td>High-grade nylon / ABS</td></tr><tr><td>Connector Size</td><td>~32–35 mm (standard hose fitting)</td></tr><tr><td>Pack Contents</td><td>1 accessory piece</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Vacuum Cleaner Accessory — SKU 1329490 is a replacement/spare accessory for BULL\'s vacuum cleaner range.</p><table class="lg-spec-table"><tbody><tr><td>Compatible With</td><td>BULL wet & dry vacuum cleaners (universal fit)</td></tr><tr><td>Material</td><td>High-grade nylon / ABS</td></tr><tr><td>Connector Size</td><td>~32–35 mm (standard hose fitting)</td></tr><tr><td>Pack Contents</td><td>1 accessory piece</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Vacuum Cleaner Accessory — SKU 1329490",
       image:
         "https://images.pexels.com/photos/3616746/pexels-photo-3616746.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -342,7 +341,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk — ask for the exact chuck size and wattage.",
       detail:
-        "<p>BULL Multi-Purpose Power Tool — SKU 12043525 — specific chuck size and wattage for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Chuck Range</td><td>10–26 mm (SDS-Plus)</td></tr><tr><td>Typical Power Range</td><td>650–900 W</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Multi-Purpose Power Tool — SKU 12043525 — specific chuck size and wattage for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Chuck Range</td><td>10–26 mm (SDS-Plus)</td></tr><tr><td>Typical Power Range</td><td>650–900 W</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Multi-Purpose Power Tool — SKU 12043525",
       image:
         "https://images.pexels.com/photos/6790821/pexels-photo-6790821.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -370,7 +369,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk — ask for the exact disc size and wattage.",
       detail:
-        "<p>BULL Angle Grinder — SKU 1327639 is a BULL angle grinder. Disc size and wattage for this specific SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Disc Range</td><td>100–230 mm</td></tr><tr><td>Typical Power Range</td><td>750–2400 W</td></tr><tr><td>Spindle Thread</td><td>M10 / M14 depending on size</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Angle Grinder — SKU 1327639 is a BULL angle grinder. Disc size and wattage for this specific SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Disc Range</td><td>100–230 mm</td></tr><tr><td>Typical Power Range</td><td>750–2400 W</td></tr><tr><td>Spindle Thread</td><td>M10 / M14 depending on size</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Angle Grinder — SKU 1327639",
       image:
         "https://images.pexels.com/photos/5272080/pexels-photo-5272080.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -384,7 +383,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk — ask for the exact disc size and wattage.",
       detail:
-        "<p>BULL Angle Grinder — SKU 1333515 is a BULL angle grinder. Disc size and wattage for this specific SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Disc Range</td><td>100–230 mm</td></tr><tr><td>Typical Power Range</td><td>750–2400 W</td></tr><tr><td>Spindle Thread</td><td>M10 / M14 depending on size</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Angle Grinder — SKU 1333515 is a BULL angle grinder. Disc size and wattage for this specific SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Disc Range</td><td>100–230 mm</td></tr><tr><td>Typical Power Range</td><td>750–2400 W</td></tr><tr><td>Spindle Thread</td><td>M10 / M14 depending on size</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Angle Grinder — SKU 1333515",
       image:
         "https://images.pexels.com/photos/4315559/pexels-photo-4315559.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -398,7 +397,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk — ask for the exact disc size and wattage.",
       detail:
-        "<p>BULL Angle Grinder — SKU 1333516 is a BULL angle grinder. Disc size and wattage for this specific SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Disc Range</td><td>100–230 mm</td></tr><tr><td>Typical Power Range</td><td>750–2400 W</td></tr><tr><td>Spindle Thread</td><td>M10 / M14 depending on size</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Angle Grinder — SKU 1333516 is a BULL angle grinder. Disc size and wattage for this specific SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Disc Range</td><td>100–230 mm</td></tr><tr><td>Typical Power Range</td><td>750–2400 W</td></tr><tr><td>Spindle Thread</td><td>M10 / M14 depending on size</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Angle Grinder — SKU 1333516",
       image:
         "https://images.pexels.com/photos/16939419/pexels-photo-16939419.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -412,7 +411,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk — ask for the exact disc size and wattage.",
       detail:
-        "<p>BULL Angle Grinder — SKU 1333622 is a BULL angle grinder. Disc size and wattage for this specific SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Disc Range</td><td>100–230 mm</td></tr><tr><td>Typical Power Range</td><td>750–2400 W</td></tr><tr><td>Spindle Thread</td><td>M10 / M14 depending on size</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Angle Grinder — SKU 1333622 is a BULL angle grinder. Disc size and wattage for this specific SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Disc Range</td><td>100–230 mm</td></tr><tr><td>Typical Power Range</td><td>750–2400 W</td></tr><tr><td>Spindle Thread</td><td>M10 / M14 depending on size</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Angle Grinder — SKU 1333622",
       image:
         "https://images.pexels.com/photos/4315562/pexels-photo-4315562.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -426,7 +425,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk — ask for the exact disc size and wattage.",
       detail:
-        "<p>BULL Angle Grinder — SKU 1304557 is a BULL angle grinder. Disc size and wattage for this specific SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Disc Range</td><td>100–230 mm</td></tr><tr><td>Typical Power Range</td><td>750–2400 W</td></tr><tr><td>Spindle Thread</td><td>M10 / M14 depending on size</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Angle Grinder — SKU 1304557 is a BULL angle grinder. Disc size and wattage for this specific SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Disc Range</td><td>100–230 mm</td></tr><tr><td>Typical Power Range</td><td>750–2400 W</td></tr><tr><td>Spindle Thread</td><td>M10 / M14 depending on size</td></tr><tr><td>Standard Fitment</td><td>3-pin plug, side handle, wheel guard</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Angle Grinder — SKU 1304557",
       image:
         "https://images.pexels.com/photos/16485052/pexels-photo-16485052.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -454,7 +453,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk — ask for the exact chuck size and wattage.",
       detail:
-        "<p>BULL Impact Drill — SKU 1329815 — specific chuck size and wattage for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Chuck Range</td><td>10–16 mm</td></tr><tr><td>Typical Power Range</td><td>550–750 W</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Impact Drill — SKU 1329815 — specific chuck size and wattage for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Chuck Range</td><td>10–16 mm</td></tr><tr><td>Typical Power Range</td><td>550–750 W</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Impact Drill — SKU 1329815",
       image:
         "https://images.pexels.com/photos/6791488/pexels-photo-6791488.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -468,7 +467,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk — ask for the exact chuck size and wattage.",
       detail:
-        "<p>BULL Impact Drill — SKU 1325783 — specific chuck size and wattage for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Chuck Range</td><td>10–16 mm</td></tr><tr><td>Typical Power Range</td><td>550–750 W</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Impact Drill — SKU 1325783 — specific chuck size and wattage for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Chuck Range</td><td>10–16 mm</td></tr><tr><td>Typical Power Range</td><td>550–750 W</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Impact Drill — SKU 1325783",
       image:
         "https://images.pexels.com/photos/8821015/pexels-photo-8821015.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -482,7 +481,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk — ask for the exact chuck size and wattage.",
       detail:
-        "<p>BULL Multi-Purpose Power Tool — SKU 1329605 — specific chuck size and wattage for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Chuck Range</td><td>10–26 mm (SDS-Plus)</td></tr><tr><td>Typical Power Range</td><td>650–900 W</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>BULL Multi-Purpose Power Tool — SKU 1329605 — specific chuck size and wattage for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Chuck Range</td><td>10–26 mm (SDS-Plus)</td></tr><tr><td>Typical Power Range</td><td>650–900 W</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "BULL Multi-Purpose Power Tool — SKU 1329605",
       image:
         "https://images.pexels.com/photos/6790808/pexels-photo-6790808.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -599,7 +598,8 @@ const LINGARAJA_PRODUCTS = {
       image:
         "https://images.pexels.com/photos/10518630/pexels-photo-10518630.jpeg?auto=compress&cs=tinysrgb&w=800",
       pdf: "https://content.mymanual.info/media/instruction/JvP/JvPpSxcW4yF5JeZSjk7msKj8oXr7CGvzD1CrSj5B.pdf",
-      imageSource: "ECO DP-606i / DP-916i submersible pump manual (closest available; unit is submersible, not centrifugal — confirm exact model with sales desk)",
+      imageSource:
+        "ECO DP-606i / DP-916i submersible pump manual (closest available; unit is submersible, not centrifugal — confirm exact model with sales desk)",
     },
     {
       sku: "EC1512-9",
@@ -613,7 +613,8 @@ const LINGARAJA_PRODUCTS = {
       image:
         "https://images.pexels.com/photos/3822938/pexels-photo-3822938.jpeg?auto=compress&cs=tinysrgb&w=800",
       pdf: "https://content.mymanual.info/media/instruction/9VK/9VKaeSUrUYKPzyEha0dDvbF7RctSZN7tsI5pNsab.pdf",
-      imageSource: "ECO AIW-4900 air impact wrench (representative pneumatic tool manual)",
+      imageSource:
+        "ECO AIW-4900 air impact wrench (representative pneumatic tool manual)",
     },
     {
       sku: "EC1515-3",
@@ -627,7 +628,8 @@ const LINGARAJA_PRODUCTS = {
       image:
         "https://images.pexels.com/photos/32391495/pexels-photo-32391495.jpeg?auto=compress&cs=tinysrgb&w=800",
       pdf: "https://content.mymanual.info/media/instruction/0VP/0VPEmq9c4FwSsHCekMOcs5GxvsmPBeFk0sskB8qQ.pdf",
-      imageSource: "ECO AIW-1300S air impact wrench (representative pneumatic tool manual)",
+      imageSource:
+        "ECO AIW-1300S air impact wrench (representative pneumatic tool manual)",
     },
     {
       sku: "EC1550-4",
@@ -641,7 +643,8 @@ const LINGARAJA_PRODUCTS = {
       image:
         "https://images.pexels.com/photos/31095181/pexels-photo-31095181.jpeg?auto=compress&cs=tinysrgb&w=800",
       pdf: "https://content.mymanual.info/media/instruction/UFr/UFrhjvDx9UWPLbyYqifgBLgZBFn4yo7JFb8xRMds.pdf",
-      imageSource: "ECO AIW-742S air impact wrench (representative pneumatic tool manual)",
+      imageSource:
+        "ECO AIW-742S air impact wrench (representative pneumatic tool manual)",
     },
     {
       sku: "EC1551-5",
@@ -655,7 +658,8 @@ const LINGARAJA_PRODUCTS = {
       image:
         "https://images.pexels.com/photos/9754814/pexels-photo-9754814.jpeg?auto=compress&cs=tinysrgb&w=800",
       pdf: "https://content.mymanual.info/media/instruction/A64/A64Lm5klH77sq8AFQdNzTRe9cS9ejIAoeOn70SwL.pdf",
-      imageSource: "ECO APN-23 pneumatic pin nailer (representative pneumatic tool manual)",
+      imageSource:
+        "ECO APN-23 pneumatic pin nailer (representative pneumatic tool manual)",
     },
     {
       sku: "GTP-B25",
@@ -731,7 +735,8 @@ const LINGARAJA_PRODUCTS = {
       image:
         "https://images.pexels.com/photos/31095182/pexels-photo-31095182.jpeg?auto=compress&cs=tinysrgb&w=800",
       pdf: "https://content.mymanual.info/media/instruction/bw5/bw5AQT19OWRr4bJDi144bzmpufN7ixEYJ6aUOfOY.pdf",
-      imageSource: "ECO PE-2500RQi / PE-4000RQi (representative generator manual)",
+      imageSource:
+        "ECO PE-2500RQi / PE-4000RQi (representative generator manual)",
     },
     {
       sku: "PE-9001E3FP",
@@ -754,7 +759,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A petrol lawn mower / brush cutter for maintaining lawns and clearing overgrown site vegetation.",
       detail:
-        "<p>ECO Lawn Mower / Brush Cutter — SKU LG-735 — exact cutting width and engine size for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Cutting Width</td><td>300–450 mm</td></tr><tr><td>Typical Engine Power</td><td>~1.5–2.5 HP, 2-stroke petrol</td></tr><tr><td>Cutting System</td><td>Blade (mower) / nylon line & blade (brush cutter)</td></tr><tr><td>Fuel Type</td><td>Petrol/2-stroke mix</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Lawn Mower / Brush Cutter — SKU LG-735 — exact cutting width and engine size for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Cutting Width</td><td>300–450 mm</td></tr><tr><td>Typical Engine Power</td><td>~1.5–2.5 HP, 2-stroke petrol</td></tr><tr><td>Cutting System</td><td>Blade (mower) / nylon line & blade (brush cutter)</td></tr><tr><td>Fuel Type</td><td>Petrol/2-stroke mix</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Lawn Mower / Brush Cutter — SKU LG-735",
       image:
         "https://images.pexels.com/photos/1249614/pexels-photo-1249614.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -766,7 +771,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A petrol lawn mower / brush cutter for maintaining lawns and clearing overgrown site vegetation.",
       detail:
-        "<p>ECO Lawn Mower / Brush Cutter — SKU EC3410-2 — exact cutting width and engine size for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Cutting Width</td><td>300–450 mm</td></tr><tr><td>Typical Engine Power</td><td>~1.5–2.5 HP, 2-stroke petrol</td></tr><tr><td>Cutting System</td><td>Blade (mower) / nylon line & blade (brush cutter)</td></tr><tr><td>Fuel Type</td><td>Petrol/2-stroke mix</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Lawn Mower / Brush Cutter — SKU EC3410-2 — exact cutting width and engine size for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Cutting Width</td><td>300–450 mm</td></tr><tr><td>Typical Engine Power</td><td>~1.5–2.5 HP, 2-stroke petrol</td></tr><tr><td>Cutting System</td><td>Blade (mower) / nylon line & blade (brush cutter)</td></tr><tr><td>Fuel Type</td><td>Petrol/2-stroke mix</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Lawn Mower / Brush Cutter — SKU EC3410-2",
       image:
         "https://images.pexels.com/photos/7492585/pexels-photo-7492585.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -778,7 +783,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A petrol lawn mower / brush cutter for maintaining lawns and clearing overgrown site vegetation.",
       detail:
-        "<p>ECO Lawn Mower / Brush Cutter — SKU EC1553-7 — exact cutting width and engine size for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Cutting Width</td><td>300–450 mm</td></tr><tr><td>Typical Engine Power</td><td>~1.5–2.5 HP, 2-stroke petrol</td></tr><tr><td>Cutting System</td><td>Blade (mower) / nylon line & blade (brush cutter)</td></tr><tr><td>Fuel Type</td><td>Petrol/2-stroke mix</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Lawn Mower / Brush Cutter — SKU EC1553-7 — exact cutting width and engine size for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Cutting Width</td><td>300–450 mm</td></tr><tr><td>Typical Engine Power</td><td>~1.5–2.5 HP, 2-stroke petrol</td></tr><tr><td>Cutting System</td><td>Blade (mower) / nylon line & blade (brush cutter)</td></tr><tr><td>Fuel Type</td><td>Petrol/2-stroke mix</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Lawn Mower / Brush Cutter — SKU EC1553-7",
       image:
         "https://images.pexels.com/photos/20318087/pexels-photo-20318087.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -826,7 +831,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A high-pressure washer for fast surface, vehicle and site-equipment cleaning.",
       detail:
-        "<p>ECO High-Pressure Washer — SKU EC4910-1 — exact pressure and flow rating for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Max Pressure</td><td>~120–150 bar</td></tr><tr><td>Typical Flow Rate</td><td>~7–8 L/min</td></tr><tr><td>Typical Motor Power</td><td>~1800–2000 W</td></tr><tr><td>Max Inlet Water Temp</td><td>~40°C</td></tr><tr><td>Hose Length</td><td>~5 m (class typical)</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO High-Pressure Washer — SKU EC4910-1 — exact pressure and flow rating for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Max Pressure</td><td>~120–150 bar</td></tr><tr><td>Typical Flow Rate</td><td>~7–8 L/min</td></tr><tr><td>Typical Motor Power</td><td>~1800–2000 W</td></tr><tr><td>Max Inlet Water Temp</td><td>~40°C</td></tr><tr><td>Hose Length</td><td>~5 m (class typical)</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO High-Pressure Washer — SKU EC4910-1",
       image:
         "https://images.pexels.com/photos/32588560/pexels-photo-32588560.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -838,7 +843,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A high-pressure washer for fast surface, vehicle and site-equipment cleaning.",
       detail:
-        "<p>ECO High-Pressure Washer — SKU HPW1825RSE01 — exact pressure and flow rating for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Max Pressure</td><td>~120–150 bar</td></tr><tr><td>Typical Flow Rate</td><td>~7–8 L/min</td></tr><tr><td>Typical Motor Power</td><td>~1800–2000 W</td></tr><tr><td>Max Inlet Water Temp</td><td>~40°C</td></tr><tr><td>Hose Length</td><td>~5 m (class typical)</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO High-Pressure Washer — SKU HPW1825RSE01 — exact pressure and flow rating for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Max Pressure</td><td>~120–150 bar</td></tr><tr><td>Typical Flow Rate</td><td>~7–8 L/min</td></tr><tr><td>Typical Motor Power</td><td>~1800–2000 W</td></tr><tr><td>Max Inlet Water Temp</td><td>~40°C</td></tr><tr><td>Hose Length</td><td>~5 m (class typical)</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO High-Pressure Washer — SKU HPW1825RSE01",
       image:
         "https://images.pexels.com/photos/3822938/pexels-photo-3822938.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -850,7 +855,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk.",
       detail:
-        "<p>ECO Electric Drill — SKU ASP11-150 — exact chuck size and wattage aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Chuck Range</td><td>10–16 mm</td></tr><tr><td>Typical Power Range</td><td>550–750 W</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Electric Drill — SKU ASP11-150 — exact chuck size and wattage aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Chuck Range</td><td>10–16 mm</td></tr><tr><td>Typical Power Range</td><td>550–750 W</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Electric Drill — SKU ASP11-150",
       image:
         "https://images.pexels.com/photos/6942294/pexels-photo-6942294.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -862,7 +867,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Full nameplate details for this unit are on file with our sales desk.",
       detail:
-        "<p>ECO Electric Drill — SKU ASP12-150V — exact chuck size and wattage aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Chuck Range</td><td>10–16 mm</td></tr><tr><td>Typical Power Range</td><td>550–750 W</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Electric Drill — SKU ASP12-150V — exact chuck size and wattage aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Chuck Range</td><td>10–16 mm</td></tr><tr><td>Typical Power Range</td><td>550–750 W</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Electric Drill — SKU ASP12-150V",
       image:
         "https://images.pexels.com/photos/4980786/pexels-photo-4980786.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -874,7 +879,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A braided, reinforced hose for water/air lines needing consistent pressure and flow on site.",
       detail:
-        "<p>ECO Reinforced Hose — SKU AHE-0560 — exact bore size and length for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Construction</td><td>Braided-reinforced PVC/rubber</td></tr><tr><td>Typical Working Pressure</td><td>~10–20 bar</td></tr><tr><td>Temperature Range</td><td>~-10°C to 60°C</td></tr><tr><td>Standard Lengths</td><td>Sold by the metre / coil</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Reinforced Hose — SKU AHE-0560 — exact bore size and length for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Construction</td><td>Braided-reinforced PVC/rubber</td></tr><tr><td>Typical Working Pressure</td><td>~10–20 bar</td></tr><tr><td>Temperature Range</td><td>~-10°C to 60°C</td></tr><tr><td>Standard Lengths</td><td>Sold by the metre / coil</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Reinforced Hose — SKU AHE-0560",
       image:
         "https://images.pexels.com/photos/10518630/pexels-photo-10518630.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -886,7 +891,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "An industrial flow-control valve for site water, air or process lines.",
       detail:
-        "<p>ECO Industrial Valve — SKU TIG-2 — exact valve type and size for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Body Material</td><td>Cast Iron / Stainless Steel</td></tr><tr><td>Typical Pressure Rating</td><td>PN16</td></tr><tr><td>End Connection</td><td>Flanged / Threaded</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Industrial Valve — SKU TIG-2 — exact valve type and size for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Body Material</td><td>Cast Iron / Stainless Steel</td></tr><tr><td>Typical Pressure Rating</td><td>PN16</td></tr><tr><td>End Connection</td><td>Flanged / Threaded</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Industrial Valve — SKU TIG-2",
       image:
         "https://images.pexels.com/photos/6942294/pexels-photo-6942294.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -898,7 +903,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A pneumatic spray gun for applying paints, primers and site coatings evenly.",
       detail:
-        "<p>ECO Spray Gun — SKU EC3924-3 — exact nozzle size for this SKU isn't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Nozzle Size</td><td>1.4–1.8 mm</td></tr><tr><td>Typical Air Consumption</td><td>~250–350 L/min</td></tr><tr><td>Working Pressure</td><td>~3–4 bar</td></tr><tr><td>Cup Capacity</td><td>~600–1000 ml</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Spray Gun — SKU EC3924-3 — exact nozzle size for this SKU isn\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Nozzle Size</td><td>1.4–1.8 mm</td></tr><tr><td>Typical Air Consumption</td><td>~250–350 L/min</td></tr><tr><td>Working Pressure</td><td>~3–4 bar</td></tr><tr><td>Cup Capacity</td><td>~600–1000 ml</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Spray Gun — SKU EC3924-3",
       image:
         "https://images.pexels.com/photos/29983191/pexels-photo-29983191.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -910,7 +915,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A pneumatic spray gun for applying paints, primers and site coatings evenly.",
       detail:
-        "<p>ECO Spray Gun — SKU EC3924-4 — exact nozzle size for this SKU isn't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Nozzle Size</td><td>1.4–1.8 mm</td></tr><tr><td>Typical Air Consumption</td><td>~250–350 L/min</td></tr><tr><td>Working Pressure</td><td>~3–4 bar</td></tr><tr><td>Cup Capacity</td><td>~600–1000 ml</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Spray Gun — SKU EC3924-4 — exact nozzle size for this SKU isn\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Nozzle Size</td><td>1.4–1.8 mm</td></tr><tr><td>Typical Air Consumption</td><td>~250–350 L/min</td></tr><tr><td>Working Pressure</td><td>~3–4 bar</td></tr><tr><td>Cup Capacity</td><td>~600–1000 ml</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Spray Gun — SKU EC3924-4",
       image:
         "https://images.pexels.com/photos/8956313/pexels-photo-8956313.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -922,7 +927,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A braided, reinforced hose for water/air lines needing consistent pressure and flow on site.",
       detail:
-        "<p>ECO Reinforced Hose — SKU EC3924-1 — exact bore size and length for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Construction</td><td>Braided-reinforced PVC/rubber</td></tr><tr><td>Typical Working Pressure</td><td>~10–20 bar</td></tr><tr><td>Temperature Range</td><td>~-10°C to 60°C</td></tr><tr><td>Standard Lengths</td><td>Sold by the metre / coil</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Reinforced Hose — SKU EC3924-1 — exact bore size and length for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Construction</td><td>Braided-reinforced PVC/rubber</td></tr><tr><td>Typical Working Pressure</td><td>~10–20 bar</td></tr><tr><td>Temperature Range</td><td>~-10°C to 60°C</td></tr><tr><td>Standard Lengths</td><td>Sold by the metre / coil</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Reinforced Hose — SKU EC3924-1",
       image:
         "https://images.pexels.com/photos/10518632/pexels-photo-10518632.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -934,7 +939,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A high-pressure washer for fast surface, vehicle and site-equipment cleaning.",
       detail:
-        "<p>ECO High-Pressure Washer — SKU ASB-06S — exact pressure and flow rating for this SKU aren't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Max Pressure</td><td>~120–150 bar</td></tr><tr><td>Typical Flow Rate</td><td>~7–8 L/min</td></tr><tr><td>Typical Motor Power</td><td>~1800–2000 W</td></tr><tr><td>Max Inlet Water Temp</td><td>~40°C</td></tr><tr><td>Hose Length</td><td>~5 m (class typical)</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO High-Pressure Washer — SKU ASB-06S — exact pressure and flow rating for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Max Pressure</td><td>~120–150 bar</td></tr><tr><td>Typical Flow Rate</td><td>~7–8 L/min</td></tr><tr><td>Typical Motor Power</td><td>~1800–2000 W</td></tr><tr><td>Max Inlet Water Temp</td><td>~40°C</td></tr><tr><td>Hose Length</td><td>~5 m (class typical)</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO High-Pressure Washer — SKU ASB-06S",
       image:
         "https://images.pexels.com/photos/32391495/pexels-photo-32391495.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -946,7 +951,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A pneumatic spray gun for applying paints, primers and site coatings evenly.",
       detail:
-        "<p>ECO Spray Gun — SKU SG-1000H15U — exact nozzle size for this SKU isn't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Nozzle Size</td><td>1.4–1.8 mm</td></tr><tr><td>Typical Air Consumption</td><td>~250–350 L/min</td></tr><tr><td>Working Pressure</td><td>~3–4 bar</td></tr><tr><td>Cup Capacity</td><td>~600–1000 ml</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Spray Gun — SKU SG-1000H15U — exact nozzle size for this SKU isn\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Nozzle Size</td><td>1.4–1.8 mm</td></tr><tr><td>Typical Air Consumption</td><td>~250–350 L/min</td></tr><tr><td>Working Pressure</td><td>~3–4 bar</td></tr><tr><td>Cup Capacity</td><td>~600–1000 ml</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Spray Gun — SKU SG-1000H15U",
       image:
         "https://images.pexels.com/photos/16679645/pexels-photo-16679645.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -958,7 +963,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A pneumatic spray gun for applying paints, primers and site coatings evenly.",
       detail:
-        "<p>ECO Spray Gun — SKU EC1533-17 — exact nozzle size for this SKU isn't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Nozzle Size</td><td>1.4–1.8 mm</td></tr><tr><td>Typical Air Consumption</td><td>~250–350 L/min</td></tr><tr><td>Working Pressure</td><td>~3–4 bar</td></tr><tr><td>Cup Capacity</td><td>~600–1000 ml</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Spray Gun — SKU EC1533-17 — exact nozzle size for this SKU isn\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Nozzle Size</td><td>1.4–1.8 mm</td></tr><tr><td>Typical Air Consumption</td><td>~250–350 L/min</td></tr><tr><td>Working Pressure</td><td>~3–4 bar</td></tr><tr><td>Cup Capacity</td><td>~600–1000 ml</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Spray Gun — SKU EC1533-17",
       image:
         "https://images.pexels.com/photos/29983191/pexels-photo-29983191.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -970,7 +975,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A pneumatic spray gun for applying paints, primers and site coatings evenly.",
       detail:
-        "<p>ECO Spray Gun — SKU EC1534-14 — exact nozzle size for this SKU isn't listed in our online catalogue yet.</p><table class=\"lg-spec-table\"><tbody><tr><td>Typical Nozzle Size</td><td>1.4–1.8 mm</td></tr><tr><td>Typical Air Consumption</td><td>~250–350 L/min</td></tr><tr><td>Working Pressure</td><td>~3–4 bar</td></tr><tr><td>Cup Capacity</td><td>~600–1000 ml</td></tr></tbody></table><p style=\"margin-top:10px;font-size:.85em;opacity:.75\">Typical specifications for this product class — exact technical data sheet available on request.</p>",
+        '<p>ECO Spray Gun — SKU EC1534-14 — exact nozzle size for this SKU isn\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Typical Nozzle Size</td><td>1.4–1.8 mm</td></tr><tr><td>Typical Air Consumption</td><td>~250–350 L/min</td></tr><tr><td>Working Pressure</td><td>~3–4 bar</td></tr><tr><td>Cup Capacity</td><td>~600–1000 ml</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Spray Gun — SKU EC1534-14",
       image:
         "https://images.pexels.com/photos/8956313/pexels-photo-8956313.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1116,7 +1121,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "210mm 2000W Circular",
       desc: "A 210mm circular saw with a 2000W motor, cutting to roughly 72mm depth at 90° — sized for site framing and sheet material rip cuts.",
       detail:
-        "<p>The WORTEX Circular Saw 210mm 2000W Circular is a 210mm corded circular saw rated at 2000W. At this size it's built for site carpentry, formwork and sheet-goods ripping rather than fine joinery.</p><table class=\"lg-spec-table\"><tbody><tr><td>Blade Diameter</td><td>210 mm</td></tr><tr><td>Rated Input Power</td><td>2000 W</td></tr><tr><td>No-Load Speed</td><td>4,500–5,200/min</td></tr><tr><td>Max. Cut Depth @ 90°</td><td>~72 mm</td></tr><tr><td>Bevel Range</td><td>0–45°</td></tr><tr><td>Arbor Bore</td><td>20 mm / 16 mm (bush supplied)</td></tr><tr><td>Approx. Weight</td><td>5.2 kg</td></tr></tbody></table>",
+        '<p>The WORTEX Circular Saw 210mm 2000W Circular is a 210mm corded circular saw rated at 2000W. At this size it\'s built for site carpentry, formwork and sheet-goods ripping rather than fine joinery.</p><table class="lg-spec-table"><tbody><tr><td>Blade Diameter</td><td>210 mm</td></tr><tr><td>Rated Input Power</td><td>2000 W</td></tr><tr><td>No-Load Speed</td><td>4,500–5,200/min</td></tr><tr><td>Max. Cut Depth @ 90°</td><td>~72 mm</td></tr><tr><td>Bevel Range</td><td>0–45°</td></tr><tr><td>Arbor Bore</td><td>20 mm / 16 mm (bush supplied)</td></tr><tr><td>Approx. Weight</td><td>5.2 kg</td></tr></tbody></table>',
       name: "WORTEX Circular Saw 210mm 2000W Circular",
       image:
         "https://images.pexels.com/photos/8817827/pexels-photo-8817827.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1128,7 +1133,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "190mm 1600W",
       desc: "1600W behind a 190mm blade gives this saw enough torque to hold a straight line through structural timber and ply without bogging down.",
       detail:
-        "<p>The WORTEX Circular Saw 190mm 1600W is a 190mm corded circular saw rated at 1600W. At this size it's built for site carpentry, formwork and sheet-goods ripping rather than fine joinery.</p><table class=\"lg-spec-table\"><tbody><tr><td>Blade Diameter</td><td>190 mm</td></tr><tr><td>Rated Input Power</td><td>1600 W</td></tr><tr><td>No-Load Speed</td><td>4,500–5,200/min</td></tr><tr><td>Max. Cut Depth @ 90°</td><td>~62 mm</td></tr><tr><td>Bevel Range</td><td>0–45°</td></tr><tr><td>Arbor Bore</td><td>20 mm / 16 mm (bush supplied)</td></tr><tr><td>Approx. Weight</td><td>4.8 kg</td></tr></tbody></table>",
+        '<p>The WORTEX Circular Saw 190mm 1600W is a 190mm corded circular saw rated at 1600W. At this size it\'s built for site carpentry, formwork and sheet-goods ripping rather than fine joinery.</p><table class="lg-spec-table"><tbody><tr><td>Blade Diameter</td><td>190 mm</td></tr><tr><td>Rated Input Power</td><td>1600 W</td></tr><tr><td>No-Load Speed</td><td>4,500–5,200/min</td></tr><tr><td>Max. Cut Depth @ 90°</td><td>~62 mm</td></tr><tr><td>Bevel Range</td><td>0–45°</td></tr><tr><td>Arbor Bore</td><td>20 mm / 16 mm (bush supplied)</td></tr><tr><td>Approx. Weight</td><td>4.8 kg</td></tr></tbody></table>',
       name: "WORTEX Circular Saw 190mm 1600W",
       image:
         "https://images.pexels.com/photos/7492584/pexels-photo-7492584.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1140,7 +1145,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "210mm 2000W Circular",
       desc: "A 210mm circular saw with a 2000W motor, cutting to roughly 72mm depth at 90° — sized for site framing and sheet material rip cuts.",
       detail:
-        "<p>The WORTEX Circular Saw 210mm 2000W Circular is a 210mm corded circular saw rated at 2000W. At this size it's built for site carpentry, formwork and sheet-goods ripping rather than fine joinery.</p><table class=\"lg-spec-table\"><tbody><tr><td>Blade Diameter</td><td>210 mm</td></tr><tr><td>Rated Input Power</td><td>2000 W</td></tr><tr><td>No-Load Speed</td><td>4,500–5,200/min</td></tr><tr><td>Max. Cut Depth @ 90°</td><td>~72 mm</td></tr><tr><td>Bevel Range</td><td>0–45°</td></tr><tr><td>Arbor Bore</td><td>20 mm / 16 mm (bush supplied)</td></tr><tr><td>Approx. Weight</td><td>5.2 kg</td></tr></tbody></table>",
+        '<p>The WORTEX Circular Saw 210mm 2000W Circular is a 210mm corded circular saw rated at 2000W. At this size it\'s built for site carpentry, formwork and sheet-goods ripping rather than fine joinery.</p><table class="lg-spec-table"><tbody><tr><td>Blade Diameter</td><td>210 mm</td></tr><tr><td>Rated Input Power</td><td>2000 W</td></tr><tr><td>No-Load Speed</td><td>4,500–5,200/min</td></tr><tr><td>Max. Cut Depth @ 90°</td><td>~72 mm</td></tr><tr><td>Bevel Range</td><td>0–45°</td></tr><tr><td>Arbor Bore</td><td>20 mm / 16 mm (bush supplied)</td></tr><tr><td>Approx. Weight</td><td>5.2 kg</td></tr></tbody></table>',
       name: "WORTEX Circular Saw 210mm 2000W Circular",
       image:
         "https://images.pexels.com/photos/8820186/pexels-photo-8820186.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1152,7 +1157,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "190mm 1600W",
       desc: "1600W behind a 190mm blade gives this saw enough torque to hold a straight line through structural timber and ply without bogging down.",
       detail:
-        "<p>The WORTEX Circular Saw 190mm 1600W is a 190mm corded circular saw rated at 1600W. At this size it's built for site carpentry, formwork and sheet-goods ripping rather than fine joinery.</p><table class=\"lg-spec-table\"><tbody><tr><td>Blade Diameter</td><td>190 mm</td></tr><tr><td>Rated Input Power</td><td>1600 W</td></tr><tr><td>No-Load Speed</td><td>4,500–5,200/min</td></tr><tr><td>Max. Cut Depth @ 90°</td><td>~62 mm</td></tr><tr><td>Bevel Range</td><td>0–45°</td></tr><tr><td>Arbor Bore</td><td>20 mm / 16 mm (bush supplied)</td></tr><tr><td>Approx. Weight</td><td>4.8 kg</td></tr></tbody></table>",
+        '<p>The WORTEX Circular Saw 190mm 1600W is a 190mm corded circular saw rated at 1600W. At this size it\'s built for site carpentry, formwork and sheet-goods ripping rather than fine joinery.</p><table class="lg-spec-table"><tbody><tr><td>Blade Diameter</td><td>190 mm</td></tr><tr><td>Rated Input Power</td><td>1600 W</td></tr><tr><td>No-Load Speed</td><td>4,500–5,200/min</td></tr><tr><td>Max. Cut Depth @ 90°</td><td>~62 mm</td></tr><tr><td>Bevel Range</td><td>0–45°</td></tr><tr><td>Arbor Bore</td><td>20 mm / 16 mm (bush supplied)</td></tr><tr><td>Approx. Weight</td><td>4.8 kg</td></tr></tbody></table>',
       name: "WORTEX Circular Saw 190mm 1600W",
       image:
         "https://images.pexels.com/photos/8817833/pexels-photo-8817833.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1164,7 +1169,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Orbital 240W",
       desc: "A 190mm circular saw with a 240W motor, cutting to roughly 62mm depth at 90° — sized for site framing and sheet material rip cuts.",
       detail:
-        "<p>The WORTEX Circular Saw Orbital 240W is a 190mm corded circular saw rated at 240W. At this size it's built for site carpentry, formwork and sheet-goods ripping rather than fine joinery.</p><table class=\"lg-spec-table\"><tbody><tr><td>Blade Diameter</td><td>190 mm</td></tr><tr><td>Rated Input Power</td><td>240 W</td></tr><tr><td>No-Load Speed</td><td>4,500–5,200/min</td></tr><tr><td>Max. Cut Depth @ 90°</td><td>~62 mm</td></tr><tr><td>Bevel Range</td><td>0–45°</td></tr><tr><td>Arbor Bore</td><td>20 mm / 16 mm (bush supplied)</td></tr><tr><td>Approx. Weight</td><td>3.4 kg</td></tr></tbody></table>",
+        '<p>The WORTEX Circular Saw Orbital 240W is a 190mm corded circular saw rated at 240W. At this size it\'s built for site carpentry, formwork and sheet-goods ripping rather than fine joinery.</p><table class="lg-spec-table"><tbody><tr><td>Blade Diameter</td><td>190 mm</td></tr><tr><td>Rated Input Power</td><td>240 W</td></tr><tr><td>No-Load Speed</td><td>4,500–5,200/min</td></tr><tr><td>Max. Cut Depth @ 90°</td><td>~62 mm</td></tr><tr><td>Bevel Range</td><td>0–45°</td></tr><tr><td>Arbor Bore</td><td>20 mm / 16 mm (bush supplied)</td></tr><tr><td>Approx. Weight</td><td>3.4 kg</td></tr></tbody></table>',
       name: "WORTEX Circular Saw Orbital 240W",
       image:
         "https://images.pexels.com/photos/8447845/pexels-photo-8447845.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1205,7 +1210,8 @@ const LINGARAJA_PRODUCTS = {
       image:
         "https://images.pexels.com/photos/13857088/pexels-photo-13857088.jpeg?auto=compress&cs=tinysrgb&w=800",
       pdf: "https://content.mymanual.info/media/instruction/Dfu/DfuNiGbh2u2dSWsostgMQoiQsjR4n90jJL3QzqWr.pdf",
-      imageSource: "WORTEX Mini Grinder MG 3017 E (representative straight-grinder manual)",
+      imageSource:
+        "WORTEX Mini Grinder MG 3017 E (representative straight-grinder manual)",
     },
     {
       sku: "0329202",
@@ -1262,7 +1268,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "An oscillating multi-tool for flush cuts, scraping and detail sanding in tight spaces.",
       detail:
-        "<p>The WORTEX Multi-Purpose Power Tool — SKU 1333509 is an oscillating multi-tool — a single motor driving interchangeable blades and pads for flush cutting, scraping and sanding in places a full-size saw or sander can't reach. No nameplate data was on file for this SKU, so figures below are typical for the category.</p><table class=\"lg-spec-table\"><tbody><tr><td>Oscillation Angle</td><td>±1.6° (3.2° total, typical)</td></tr><tr><td>Oscillation Rate</td><td>0–20,000 opm, variable</td></tr><tr><td>Accessory Mount</td><td>Universal / Starlock-compatible</td></tr><tr><td>Typical Uses</td><td>Flush cutting, scraping, sanding, grout removal</td></tr></tbody></table>",
+        '<p>The WORTEX Multi-Purpose Power Tool — SKU 1333509 is an oscillating multi-tool — a single motor driving interchangeable blades and pads for flush cutting, scraping and sanding in places a full-size saw or sander can\'t reach. No nameplate data was on file for this SKU, so figures below are typical for the category.</p><table class="lg-spec-table"><tbody><tr><td>Oscillation Angle</td><td>±1.6° (3.2° total, typical)</td></tr><tr><td>Oscillation Rate</td><td>0–20,000 opm, variable</td></tr><tr><td>Accessory Mount</td><td>Universal / Starlock-compatible</td></tr><tr><td>Typical Uses</td><td>Flush cutting, scraping, sanding, grout removal</td></tr></tbody></table>',
       name: "WORTEX Multi-Purpose Power Tool — SKU 1333509",
       image:
         "https://images.pexels.com/photos/14144281/pexels-photo-14144281.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1274,7 +1280,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A variable-speed reciprocating saw for demolition cuts through timber, nail-embedded wood and light metal.",
       detail:
-        "<p>The WORTEX Reciprocating Saw — SKU JS7008LE019 is a reciprocating (sabre) saw, built for rough demolition and remodelling cuts — through timber, pipe and nail-embedded material — rather than clean finish cuts. A manufacturer nameplate wasn't available for this SKU, so figures below are typical for this class of tool.</p><table class=\"lg-spec-table\"><tbody><tr><td>Stroke Length</td><td>20–28 mm (typical)</td></tr><tr><td>Stroke Rate</td><td>0–2,800 spm, variable speed</td></tr><tr><td>Blade Change</td><td>Tool-less clamp</td></tr><tr><td>Orbital Action</td><td>Available on most variants</td></tr><tr><td>Approx. Weight</td><td>~2.8–3.2 kg</td></tr></tbody></table>",
+        '<p>The WORTEX Reciprocating Saw — SKU JS7008LE019 is a reciprocating (sabre) saw, built for rough demolition and remodelling cuts — through timber, pipe and nail-embedded material — rather than clean finish cuts. A manufacturer nameplate wasn\'t available for this SKU, so figures below are typical for this class of tool.</p><table class="lg-spec-table"><tbody><tr><td>Stroke Length</td><td>20–28 mm (typical)</td></tr><tr><td>Stroke Rate</td><td>0–2,800 spm, variable speed</td></tr><tr><td>Blade Change</td><td>Tool-less clamp</td></tr><tr><td>Orbital Action</td><td>Available on most variants</td></tr><tr><td>Approx. Weight</td><td>~2.8–3.2 kg</td></tr></tbody></table>',
       name: "WORTEX Reciprocating Saw — SKU JS7008LE019",
       image:
         "https://images.pexels.com/photos/20317629/pexels-photo-20317629.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1286,7 +1292,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A variable-speed reciprocating saw for demolition cuts through timber, nail-embedded wood and light metal.",
       detail:
-        "<p>The WORTEX Reciprocating Saw — SKU 0325116 is a reciprocating (sabre) saw, built for rough demolition and remodelling cuts — through timber, pipe and nail-embedded material — rather than clean finish cuts. A manufacturer nameplate wasn't available for this SKU, so figures below are typical for this class of tool.</p><table class=\"lg-spec-table\"><tbody><tr><td>Stroke Length</td><td>20–28 mm (typical)</td></tr><tr><td>Stroke Rate</td><td>0–2,800 spm, variable speed</td></tr><tr><td>Blade Change</td><td>Tool-less clamp</td></tr><tr><td>Orbital Action</td><td>Available on most variants</td></tr><tr><td>Approx. Weight</td><td>~2.8–3.2 kg</td></tr></tbody></table>",
+        '<p>The WORTEX Reciprocating Saw — SKU 0325116 is a reciprocating (sabre) saw, built for rough demolition and remodelling cuts — through timber, pipe and nail-embedded material — rather than clean finish cuts. A manufacturer nameplate wasn\'t available for this SKU, so figures below are typical for this class of tool.</p><table class="lg-spec-table"><tbody><tr><td>Stroke Length</td><td>20–28 mm (typical)</td></tr><tr><td>Stroke Rate</td><td>0–2,800 spm, variable speed</td></tr><tr><td>Blade Change</td><td>Tool-less clamp</td></tr><tr><td>Orbital Action</td><td>Available on most variants</td></tr><tr><td>Approx. Weight</td><td>~2.8–3.2 kg</td></tr></tbody></table>',
       name: "WORTEX Reciprocating Saw — SKU 0325116",
       image:
         "https://images.pexels.com/photos/29246281/pexels-photo-29246281.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1298,7 +1304,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A variable-speed reciprocating saw for demolition cuts through timber, nail-embedded wood and light metal.",
       detail:
-        "<p>The WORTEX Reciprocating Saw — SKU 0319212 is a reciprocating (sabre) saw, built for rough demolition and remodelling cuts — through timber, pipe and nail-embedded material — rather than clean finish cuts. A manufacturer nameplate wasn't available for this SKU, so figures below are typical for this class of tool.</p><table class=\"lg-spec-table\"><tbody><tr><td>Stroke Length</td><td>20–28 mm (typical)</td></tr><tr><td>Stroke Rate</td><td>0–2,800 spm, variable speed</td></tr><tr><td>Blade Change</td><td>Tool-less clamp</td></tr><tr><td>Orbital Action</td><td>Available on most variants</td></tr><tr><td>Approx. Weight</td><td>~2.8–3.2 kg</td></tr></tbody></table>",
+        '<p>The WORTEX Reciprocating Saw — SKU 0319212 is a reciprocating (sabre) saw, built for rough demolition and remodelling cuts — through timber, pipe and nail-embedded material — rather than clean finish cuts. A manufacturer nameplate wasn\'t available for this SKU, so figures below are typical for this class of tool.</p><table class="lg-spec-table"><tbody><tr><td>Stroke Length</td><td>20–28 mm (typical)</td></tr><tr><td>Stroke Rate</td><td>0–2,800 spm, variable speed</td></tr><tr><td>Blade Change</td><td>Tool-less clamp</td></tr><tr><td>Orbital Action</td><td>Available on most variants</td></tr><tr><td>Approx. Weight</td><td>~2.8–3.2 kg</td></tr></tbody></table>',
       name: "WORTEX Reciprocating Saw — SKU 0319212",
       image:
         "https://images.pexels.com/photos/12951637/pexels-photo-12951637.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1310,7 +1316,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "An oscillating multi-tool for flush cuts, scraping and detail sanding in tight spaces.",
       detail:
-        "<p>The WORTEX Multi-Purpose Power Tool — SKU 1330427 is an oscillating multi-tool — a single motor driving interchangeable blades and pads for flush cutting, scraping and sanding in places a full-size saw or sander can't reach. No nameplate data was on file for this SKU, so figures below are typical for the category.</p><table class=\"lg-spec-table\"><tbody><tr><td>Oscillation Angle</td><td>±1.6° (3.2° total, typical)</td></tr><tr><td>Oscillation Rate</td><td>0–20,000 opm, variable</td></tr><tr><td>Accessory Mount</td><td>Universal / Starlock-compatible</td></tr><tr><td>Typical Uses</td><td>Flush cutting, scraping, sanding, grout removal</td></tr></tbody></table>",
+        '<p>The WORTEX Multi-Purpose Power Tool — SKU 1330427 is an oscillating multi-tool — a single motor driving interchangeable blades and pads for flush cutting, scraping and sanding in places a full-size saw or sander can\'t reach. No nameplate data was on file for this SKU, so figures below are typical for the category.</p><table class="lg-spec-table"><tbody><tr><td>Oscillation Angle</td><td>±1.6° (3.2° total, typical)</td></tr><tr><td>Oscillation Rate</td><td>0–20,000 opm, variable</td></tr><tr><td>Accessory Mount</td><td>Universal / Starlock-compatible</td></tr><tr><td>Typical Uses</td><td>Flush cutting, scraping, sanding, grout removal</td></tr></tbody></table>',
       name: "WORTEX Multi-Purpose Power Tool — SKU 1330427",
       image:
         "https://images.pexels.com/photos/29226694/pexels-photo-29226694.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1454,7 +1460,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "An oscillating multi-tool for flush cuts, scraping and detail sanding in tight spaces.",
       detail:
-        "<p>The WORTEX Multi-Purpose Power Tool — SKU MX1416D0330 is an oscillating multi-tool — a single motor driving interchangeable blades and pads for flush cutting, scraping and sanding in places a full-size saw or sander can't reach. No nameplate data was on file for this SKU, so figures below are typical for the category.</p><table class=\"lg-spec-table\"><tbody><tr><td>Oscillation Angle</td><td>±1.6° (3.2° total, typical)</td></tr><tr><td>Oscillation Rate</td><td>0–20,000 opm, variable</td></tr><tr><td>Accessory Mount</td><td>Universal / Starlock-compatible</td></tr><tr><td>Typical Uses</td><td>Flush cutting, scraping, sanding, grout removal</td></tr></tbody></table>",
+        '<p>The WORTEX Multi-Purpose Power Tool — SKU MX1416D0330 is an oscillating multi-tool — a single motor driving interchangeable blades and pads for flush cutting, scraping and sanding in places a full-size saw or sander can\'t reach. No nameplate data was on file for this SKU, so figures below are typical for the category.</p><table class="lg-spec-table"><tbody><tr><td>Oscillation Angle</td><td>±1.6° (3.2° total, typical)</td></tr><tr><td>Oscillation Rate</td><td>0–20,000 opm, variable</td></tr><tr><td>Accessory Mount</td><td>Universal / Starlock-compatible</td></tr><tr><td>Typical Uses</td><td>Flush cutting, scraping, sanding, grout removal</td></tr></tbody></table>',
       name: "WORTEX Multi-Purpose Power Tool — SKU MX1416D0330",
       image:
         "https://images.pexels.com/photos/5846082/pexels-photo-5846082.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1514,7 +1520,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "A variable-speed reciprocating saw for demolition cuts through timber, nail-embedded wood and light metal.",
       detail:
-        "<p>The WORTEX Reciprocating Saw — SKU 0325118 is a reciprocating (sabre) saw, built for rough demolition and remodelling cuts — through timber, pipe and nail-embedded material — rather than clean finish cuts. A manufacturer nameplate wasn't available for this SKU, so figures below are typical for this class of tool.</p><table class=\"lg-spec-table\"><tbody><tr><td>Stroke Length</td><td>20–28 mm (typical)</td></tr><tr><td>Stroke Rate</td><td>0–2,800 spm, variable speed</td></tr><tr><td>Blade Change</td><td>Tool-less clamp</td></tr><tr><td>Orbital Action</td><td>Available on most variants</td></tr><tr><td>Approx. Weight</td><td>~2.8–3.2 kg</td></tr></tbody></table>",
+        '<p>The WORTEX Reciprocating Saw — SKU 0325118 is a reciprocating (sabre) saw, built for rough demolition and remodelling cuts — through timber, pipe and nail-embedded material — rather than clean finish cuts. A manufacturer nameplate wasn\'t available for this SKU, so figures below are typical for this class of tool.</p><table class="lg-spec-table"><tbody><tr><td>Stroke Length</td><td>20–28 mm (typical)</td></tr><tr><td>Stroke Rate</td><td>0–2,800 spm, variable speed</td></tr><tr><td>Blade Change</td><td>Tool-less clamp</td></tr><tr><td>Orbital Action</td><td>Available on most variants</td></tr><tr><td>Approx. Weight</td><td>~2.8–3.2 kg</td></tr></tbody></table>',
       name: "WORTEX Reciprocating Saw — SKU 0325118",
       image:
         "https://images.pexels.com/photos/18866922/pexels-photo-18866922.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1610,7 +1616,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "1600W behind a 190mm blade gives this saw enough torque to hold a straight line through structural timber and ply without bogging down.",
       detail:
-        "<p>The WORTEX Circular Saw — SKU 1319428 is a 190mm corded circular saw rated at 1600W. At this size it's built for site carpentry, formwork and sheet-goods ripping rather than fine joinery.</p><table class=\"lg-spec-table\"><tbody><tr><td>Blade Diameter</td><td>190 mm</td></tr><tr><td>Rated Input Power</td><td>1600 W</td></tr><tr><td>No-Load Speed</td><td>4,500–5,200/min</td></tr><tr><td>Max. Cut Depth @ 90°</td><td>~62 mm</td></tr><tr><td>Bevel Range</td><td>0–45°</td></tr><tr><td>Arbor Bore</td><td>20 mm / 16 mm (bush supplied)</td></tr><tr><td>Approx. Weight</td><td>4.8 kg</td></tr></tbody></table>",
+        '<p>The WORTEX Circular Saw — SKU 1319428 is a 190mm corded circular saw rated at 1600W. At this size it\'s built for site carpentry, formwork and sheet-goods ripping rather than fine joinery.</p><table class="lg-spec-table"><tbody><tr><td>Blade Diameter</td><td>190 mm</td></tr><tr><td>Rated Input Power</td><td>1600 W</td></tr><tr><td>No-Load Speed</td><td>4,500–5,200/min</td></tr><tr><td>Max. Cut Depth @ 90°</td><td>~62 mm</td></tr><tr><td>Bevel Range</td><td>0–45°</td></tr><tr><td>Arbor Bore</td><td>20 mm / 16 mm (bush supplied)</td></tr><tr><td>Approx. Weight</td><td>4.8 kg</td></tr></tbody></table>',
       name: "WORTEX Circular Saw — SKU 1319428",
       image:
         "https://images.pexels.com/photos/9160880/pexels-photo-9160880.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1706,7 +1712,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "An oscillating multi-tool for flush cuts, scraping and detail sanding in tight spaces.",
       detail:
-        "<p>The WORTEX Multi-Purpose Power Tool — SKU CV201200029 is an oscillating multi-tool — a single motor driving interchangeable blades and pads for flush cutting, scraping and sanding in places a full-size saw or sander can't reach. No nameplate data was on file for this SKU, so figures below are typical for the category.</p><table class=\"lg-spec-table\"><tbody><tr><td>Oscillation Angle</td><td>±1.6° (3.2° total, typical)</td></tr><tr><td>Oscillation Rate</td><td>0–20,000 opm, variable</td></tr><tr><td>Accessory Mount</td><td>Universal / Starlock-compatible</td></tr><tr><td>Typical Uses</td><td>Flush cutting, scraping, sanding, grout removal</td></tr></tbody></table>",
+        '<p>The WORTEX Multi-Purpose Power Tool — SKU CV201200029 is an oscillating multi-tool — a single motor driving interchangeable blades and pads for flush cutting, scraping and sanding in places a full-size saw or sander can\'t reach. No nameplate data was on file for this SKU, so figures below are typical for the category.</p><table class="lg-spec-table"><tbody><tr><td>Oscillation Angle</td><td>±1.6° (3.2° total, typical)</td></tr><tr><td>Oscillation Rate</td><td>0–20,000 opm, variable</td></tr><tr><td>Accessory Mount</td><td>Universal / Starlock-compatible</td></tr><tr><td>Typical Uses</td><td>Flush cutting, scraping, sanding, grout removal</td></tr></tbody></table>',
       name: "WORTEX Multi-Purpose Power Tool — SKU CV201200029",
       image:
         "https://images.pexels.com/photos/46973/pexels-photo-46973.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1766,7 +1772,7 @@ const LINGARAJA_PRODUCTS = {
       spec: "Contact sales desk for full spec sheet",
       desc: "Abrasive sanding sheets sized for standard orbital and palm sanders.",
       detail:
-        "<p>WORTEX Abrasive Sheets — SKU 1304560 covers abrasive sanding sheet stock for orbital sanders. Grit and pack size vary by the specific SKU ordered — confirm the exact grit before ordering if it's for a colour-matched finish.</p><table class=\"lg-spec-table\"><tbody><tr><td>Material</td><td>Aluminium oxide / silicon carbide</td></tr><tr><td>Grit Range</td><td>40–240 grit (model-dependent)</td></tr><tr><td>Sheet Size</td><td>230 x 280 mm (standard 1/3 sheet fittings)</td></tr><tr><td>Pack Format</td><td>Sold in packs, quantity model-dependent</td></tr></tbody></table>",
+        '<p>WORTEX Abrasive Sheets — SKU 1304560 covers abrasive sanding sheet stock for orbital sanders. Grit and pack size vary by the specific SKU ordered — confirm the exact grit before ordering if it\'s for a colour-matched finish.</p><table class="lg-spec-table"><tbody><tr><td>Material</td><td>Aluminium oxide / silicon carbide</td></tr><tr><td>Grit Range</td><td>40–240 grit (model-dependent)</td></tr><tr><td>Sheet Size</td><td>230 x 280 mm (standard 1/3 sheet fittings)</td></tr><tr><td>Pack Format</td><td>Sold in packs, quantity model-dependent</td></tr></tbody></table>',
       name: "WORTEX Abrasive Sheets — SKU 1304560",
       image:
         "https://images.pexels.com/photos/7496749/pexels-photo-7496749.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -1935,8 +1941,8 @@ const LINGARAJA_PRODUCTS = {
       sku: "AST-WB-TT-101",
       hs: "69101010",
       type: "Wash Basin",
-      spec: "Table Top, White, 20\" x 16\"",
-      desc: "A table-top vitreous china basin — glazed finish, sized 20\" x 16\".",
+      spec: 'Table Top, White, 20" x 16"',
+      desc: 'A table-top vitreous china basin — glazed finish, sized 20" x 16".',
       detail:
         '<p>Astral Wash Basin Table Top 20x16 White is a vitreous china wash basin for bathroom fit-outs.</p><table class="lg-spec-table"><tbody><tr><td>Material</td><td>Vitreous China</td></tr><tr><td>Mounting</td><td>Table Top</td></tr><tr><td>Finish</td><td>High-gloss glazed, stain-resistant</td></tr><tr><td>Standard</td><td>IS 2556</td></tr><tr><td>Tap Hole</td><td>Pre-drilled, single/no-hole options</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "Astral Wash Basin Table Top 20x16 White",
@@ -1947,8 +1953,8 @@ const LINGARAJA_PRODUCTS = {
       sku: "AST-WB-WM-104",
       hs: "69101010",
       type: "Wash Basin",
-      spec: "Wall Mounted, White, 22\" x 15\"",
-      desc: "A wall-mounted vitreous china basin — glazed finish, sized 22\" x 15\".",
+      spec: 'Wall Mounted, White, 22" x 15"',
+      desc: 'A wall-mounted vitreous china basin — glazed finish, sized 22" x 15".',
       detail:
         '<p>Astral Wash Basin Wall Mounted 22x15 White is a vitreous china wash basin for bathroom fit-outs.</p><table class="lg-spec-table"><tbody><tr><td>Material</td><td>Vitreous China</td></tr><tr><td>Mounting</td><td>Wall Mounted</td></tr><tr><td>Finish</td><td>High-gloss glazed, stain-resistant</td></tr><tr><td>Standard</td><td>IS 2556</td></tr><tr><td>Tap Hole</td><td>Pre-drilled, single/no-hole options</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "Astral Wash Basin Wall Mounted 22x15 White",
@@ -1959,7 +1965,7 @@ const LINGARAJA_PRODUCTS = {
       sku: "AST-SH-RN-208",
       hs: "84818090",
       type: "Shower System",
-      spec: "Overhead Rain Shower, 8\" Round, Chrome",
+      spec: 'Overhead Rain Shower, 8" Round, Chrome',
       desc: "An 8-inch round overhead rain shower with a wide, even spray pattern.",
       detail:
         '<p>Astral Rain Shower 8 Inch Round Chrome is a chrome-finished bathroom shower fitting.</p><table class="lg-spec-table"><tbody><tr><td>Type</td><td>Overhead Rain Shower</td></tr><tr><td>Material</td><td>ABS body, chrome-plated</td></tr><tr><td>Nozzle Face</td><td>Rub-clean silicone</td></tr><tr><td>Standard</td><td>IS 8931</td></tr><tr><td>Flow Control</td><td>Single flow</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
