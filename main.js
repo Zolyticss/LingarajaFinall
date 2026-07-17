@@ -301,7 +301,7 @@ document.addEventListener("DOMContentLoaded", () => {
     titleEl.textContent = name;
     metaEl.innerHTML =
       `SKU ${sku} &middot; HS ${hs}` + (spec ? ` &middot; ${spec}` : "");
-    descEl.textContent = desc;
+    descEl.innerHTML = desc;
     waEl.href =
       "https://wa.me/919999999999?text=" +
       encodeURIComponent(
