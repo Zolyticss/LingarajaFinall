@@ -596,7 +596,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>ECO Centrifugal Water Pump 0.5HP Self-Priming is a self-priming pump that can lift water from a level below the pump without manual priming each time.</p><table class="lg-spec-table"><tbody><tr><td>Motor Power</td><td>0.5 HP (~370 W)</td></tr><tr><td>Max Head</td><td>~9 m</td></tr><tr><td>Max Discharge</td><td>~100 LPM</td></tr><tr><td>Max Suction Lift</td><td>~7 m</td></tr><tr><td>Inlet / Outlet</td><td>1" x 1"</td></tr><tr><td>Body Material</td><td>Cast Iron / Stainless Steel</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Centrifugal Water Pump 0.5HP Self-Priming",
       image:
-        "https://images.pexels.com/photos/10518630/pexels-photo-10518630.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://static1.industrybuying.com/products/pumps/self-priming-pumps/self-priming-coupled-pump/PUM.SEL.826114965_1716211249068.webp",
       pdf: "https://content.mymanual.info/media/instruction/JvP/JvPpSxcW4yF5JeZSjk7msKj8oXr7CGvzD1CrSj5B.pdf",
       imageSource:
         "ECO DP-606i / DP-916i submersible pump manual (closest available; unit is submersible, not centrifugal — confirm exact model with sales desk)",
@@ -694,8 +694,7 @@ const LINGARAJA_PRODUCTS = {
       detail:
         '<p>ECO Centrifugal Water Pump 0.5HP Self-Priming is a self-priming pump that can lift water from a level below the pump without manual priming each time.</p><table class="lg-spec-table"><tbody><tr><td>Motor Power</td><td>0.5 HP (~370 W)</td></tr><tr><td>Max Head</td><td>~9 m</td></tr><tr><td>Max Discharge</td><td>~100 LPM</td></tr><tr><td>Max Suction Lift</td><td>~7 m</td></tr><tr><td>Inlet / Outlet</td><td>1" x 1"</td></tr><tr><td>Body Material</td><td>Cast Iron / Stainless Steel</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Centrifugal Water Pump 0.5HP Self-Priming",
-      image:
-        "https://images.pexels.com/photos/10518632/pexels-photo-10518632.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://m.media-amazon.com/images/I/61iCEcA8MjL.jpg",
     },
     {
       sku: "GFI-13P",
@@ -707,7 +706,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>ECO Centrifugal Water Pump 0.5HP Self-Priming is a self-priming pump that can lift water from a level below the pump without manual priming each time.</p><table class="lg-spec-table"><tbody><tr><td>Motor Power</td><td>0.5 HP (~370 W)</td></tr><tr><td>Max Head</td><td>~9 m</td></tr><tr><td>Max Discharge</td><td>~100 LPM</td></tr><tr><td>Max Suction Lift</td><td>~7 m</td></tr><tr><td>Inlet / Outlet</td><td>1" x 1"</td></tr><tr><td>Body Material</td><td>Cast Iron / Stainless Steel</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Centrifugal Water Pump 0.5HP Self-Priming",
       image:
-        "https://images.pexels.com/photos/10518630/pexels-photo-10518630.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://cpimg.tistatic.com/11588439/b/4/0-5HP-Suction-pro-Eco-Self-Priming-Monoblock-Pump..jpg",
     },
     {
       sku: "PE-4001RS",
@@ -810,7 +809,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>ECO Centrifugal Water Pump — SKU WP-153C is a self-priming pump that can lift water from a level below the pump without manual priming each time.</p><table class="lg-spec-table"><tbody><tr><td>Motor Power</td><td>0.5 HP (~370 W)</td></tr><tr><td>Max Head</td><td>~9 m</td></tr><tr><td>Max Discharge</td><td>~100 LPM</td></tr><tr><td>Max Suction Lift</td><td>~7 m</td></tr><tr><td>Inlet / Outlet</td><td>1" x 1"</td></tr><tr><td>Body Material</td><td>Cast Iron / Stainless Steel</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Centrifugal Water Pump — SKU WP-153C",
       image:
-        "https://images.pexels.com/photos/10518630/pexels-photo-10518630.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://rukminim2.flixcart.com/image/300/300/j0wqj680/water-pump/7/f/d/ecsp1-oriant-original-imaesjed4pgezrbd.jpeg",
     },
     {
       sku: "EC2012-1",
@@ -821,8 +820,7 @@ const LINGARAJA_PRODUCTS = {
       detail:
         '<p>ECO Centrifugal Water Pump — SKU EC2012-1 is a self-priming pump that can lift water from a level below the pump without manual priming each time.</p><table class="lg-spec-table"><tbody><tr><td>Motor Power</td><td>0.5 HP (~370 W)</td></tr><tr><td>Max Head</td><td>~9 m</td></tr><tr><td>Max Discharge</td><td>~100 LPM</td></tr><tr><td>Max Suction Lift</td><td>~7 m</td></tr><tr><td>Inlet / Outlet</td><td>1" x 1"</td></tr><tr><td>Body Material</td><td>Cast Iron / Stainless Steel</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Centrifugal Water Pump — SKU EC2012-1",
-      image:
-        "https://images.pexels.com/photos/10518632/pexels-photo-10518632.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://analapumps.com/wp-content/uploads/2025/11/DSCF5903-1.jpg",
     },
     {
       sku: "EC4910-1",
@@ -882,7 +880,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>ECO Reinforced Hose — SKU AHE-0560 — exact bore size and length for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Construction</td><td>Braided-reinforced PVC/rubber</td></tr><tr><td>Typical Working Pressure</td><td>~10–20 bar</td></tr><tr><td>Temperature Range</td><td>~-10°C to 60°C</td></tr><tr><td>Standard Lengths</td><td>Sold by the metre / coil</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Reinforced Hose — SKU AHE-0560",
       image:
-        "https://images.pexels.com/photos/10518630/pexels-photo-10518630.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://aalicoltd.com/wp-content/uploads/2024/03/PVC-Reinforced-Hose-with-Polyester-Yarn_4.jpg",
     },
     {
       sku: "TIG-2",
@@ -929,8 +927,7 @@ const LINGARAJA_PRODUCTS = {
       detail:
         '<p>ECO Reinforced Hose — SKU EC3924-1 — exact bore size and length for this SKU aren\'t listed in our online catalogue yet.</p><table class="lg-spec-table"><tbody><tr><td>Construction</td><td>Braided-reinforced PVC/rubber</td></tr><tr><td>Typical Working Pressure</td><td>~10–20 bar</td></tr><tr><td>Temperature Range</td><td>~-10°C to 60°C</td></tr><tr><td>Standard Lengths</td><td>Sold by the metre / coil</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ECO Reinforced Hose — SKU EC3924-1",
-      image:
-        "https://images.pexels.com/photos/10518632/pexels-photo-10518632.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://cpimg.tistatic.com/10558029/b/4/extra-10558029.jpeg",
     },
     {
       sku: "ASB-06S",
@@ -1801,7 +1798,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>ACC OPC 43 Grade Cement 50kg Bag is Ordinary Portland Cement conforming to Indian standard grading.</p><table class="lg-spec-table"><tbody><tr><td>Type</td><td>Ordinary Portland Cement (OPC)</td></tr><tr><td>Grade</td><td>43 Grade</td></tr><tr><td>28-Day Compressive Strength</td><td>≥ 43 MPa</td></tr><tr><td>Fineness (Blaine)</td><td>~300 m²/kg</td></tr><tr><td>Initial / Final Setting Time</td><td>≥30 min / ≤600 min</td></tr><tr><td>Standard</td><td>IS 269</td></tr><tr><td>Packaging</td><td>50kg HDPE-lined bag</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "ACC OPC 43 Grade Cement 50kg Bag",
       image:
-        "https://images.pexels.com/photos/2469/pexels-photo-2469.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://3.imimg.com/data3/LR/BW/ANDROID-3194261/product-500x500.jpeg",
     },
     {
       sku: "ACC-OPC53-50",
@@ -2369,7 +2366,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>Govinda TMT Bar 10mm Fe500D is corrosion-tempered mild steel rebar for RCC structural work.</p><table class="lg-spec-table"><tbody><tr><td>Nominal Diameter</td><td>10 mm</td></tr><tr><td>Grade</td><td>Fe 500D</td></tr><tr><td>Min. Yield Strength</td><td>≥ 500 MPa</td></tr><tr><td>Elongation (min.)</td><td>14.5–16%</td></tr><tr><td>Standard</td><td>IS 1786:2008</td></tr><tr><td>Bar Length</td><td>12 m</td></tr></tbody></table>',
       name: "Govinda TMT Bar 10mm Fe500D",
       image:
-        "https://images.pexels.com/photos/46167/pexels-photo-46167.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://5.imimg.com/data5/SELLER/Default/2025/11/560503270/VJ/CP/SI/245282293/10mm-govinda-500d-tmt-rebar.jpg",
     },
     {
       sku: "GVD-TMT-12-500D",
@@ -2453,7 +2450,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>Govinda TMT Bar 12mm Fe415 is corrosion-tempered mild steel rebar for RCC structural work.</p><table class="lg-spec-table"><tbody><tr><td>Nominal Diameter</td><td>12 mm</td></tr><tr><td>Grade</td><td>Fe 415</td></tr><tr><td>Min. Yield Strength</td><td>≥ 415 MPa</td></tr><tr><td>Elongation (min.)</td><td>14.5–16%</td></tr><tr><td>Standard</td><td>IS 1786:2008</td></tr><tr><td>Bar Length</td><td>12 m</td></tr></tbody></table>',
       name: "Govinda TMT Bar 12mm Fe415",
       image:
-        "https://images.pexels.com/photos/35598610/pexels-photo-35598610.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://5.imimg.com/data5/SELLER/Default/2025/11/560898013/UM/RR/KY/245282293/10mm-govinda-fe550d-tmt-rebar.jpg",
     },
     {
       sku: "GVD-BW-20G",
@@ -2465,7 +2462,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>Govinda Binding Wire 20 Gauge 20kg Coil is used to tie reinforcement bars together before concrete pour.</p><table class="lg-spec-table"><tbody><tr><td>Gauge</td><td>20 SWG</td></tr><tr><td>Wire Diameter</td><td>~0.9 mm</td></tr><tr><td>Material</td><td>Soft-annealed mild steel</td></tr><tr><td>Coil Weight</td><td>20 kg</td></tr></tbody></table>',
       name: "Govinda Binding Wire 20 Gauge 20kg Coil",
       image:
-        "https://images.pexels.com/photos/35598611/pexels-photo-35598611.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwVeleiGJkZpB2FGXYZzbT8jpCwyfLCu2aFRhqbp3OAQ&s=10",
     },
   ],
   KAKA: [
@@ -2479,7 +2476,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>KAKA Sliding Window Profile 2-Track 60mm is a uPVC extruded profile for sliding window fabrication.</p><table class="lg-spec-table"><tbody><tr><td>System Width</td><td>60 mm</td></tr><tr><td>Track Configuration</td><td>2-Track</td></tr><tr><td>Wall Thickness</td><td>~2.5–3.0 mm (main wall)</td></tr><tr><td>Chambers</td><td>Multi-chamber (5+)</td></tr><tr><td>Reinforcement</td><td>Galvanized steel insert</td></tr><tr><td>Standard</td><td>IS 17337 (uPVC windows/doors)</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "KAKA Sliding Window Profile 2-Track 60mm",
       image:
-        "https://images.pexels.com/photos/8983882/pexels-photo-8983882.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/441306857/OV/HN/ER/25243563/upvc-window-profile.jpg",
     },
     {
       sku: "KAKA-SW-3T-60",
@@ -2539,7 +2536,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>KAKA Mosquito Mesh Profile 18mm Insert is a uPVC track insert for mosquito mesh panels.</p><table class="lg-spec-table"><tbody><tr><td>Track Insert Width</td><td>18 mm</td></tr><tr><td>Compatibility</td><td>2-track and 3-track window ranges</td></tr><tr><td>Mesh Type</td><td>Fibreglass/aluminium mesh (fitted separately)</td></tr><tr><td>Material</td><td>uPVC extrusion</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "KAKA Mosquito Mesh Profile 18mm Insert",
       image:
-        "https://images.pexels.com/photos/17306481/pexels-photo-17306481.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://m.media-amazon.com/images/I/71pG6IGFhIL._AC_UF894,1000_QL80_.jpg",
     },
     {
       sku: "KAKA-WPC-DF-30",
@@ -2563,7 +2560,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>KAKA uPVC Window Handle Zinc-Alloy is a hardware handle for uPVC window sashes.</p><table class="lg-spec-table"><tbody><tr><td>Housing Material</td><td>uPVC</td></tr><tr><td>Core</td><td>Zinc-alloy</td></tr><tr><td>Lock Type</td><td>Key-lockable / non-locking variants</td></tr><tr><td>Finish</td><td>White / matte finishes</td></tr><tr><td>Compatibility</td><td>KAKA casement & sliding profile series</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "KAKA uPVC Window Handle Zinc-Alloy",
       image:
-        "https://images.pexels.com/photos/5900792/pexels-photo-5900792.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://www.upvc-store.co.uk/cdn/shop/products/skqkf1iifu5.png?v=1744901272&width=800",
     },
     {
       sku: "KAKA-MC-60",
@@ -2575,7 +2572,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>KAKA Multi-Chamber Profile 60mm 5-Chamber is a multi-chamber uPVC profile section.</p><table class="lg-spec-table"><tbody><tr><td>System Width</td><td>60 mm</td></tr><tr><td>Chambers</td><td>5-chamber</td></tr><tr><td>Insulation Benefit</td><td>Improved thermal & acoustic performance</td></tr><tr><td>Wall Thickness</td><td>~2.5–3.0 mm</td></tr><tr><td>Reinforcement</td><td>Galvanized steel insert</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "KAKA Multi-Chamber Profile 60mm 5-Chamber",
       image:
-        "https://images.pexels.com/photos/18152384/pexels-photo-18152384.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://okotech.in/wp-content/uploads/2026/02/benfit_guide-1200x686.jpg",
     },
     {
       sku: "KAKA-CC-SET",
@@ -2587,7 +2584,7 @@ const LINGARAJA_PRODUCTS = {
         '<p>KAKA Corner Cleat & Fittings Set is a hardware fittings set used during uPVC window fabrication.</p><table class="lg-spec-table"><tbody><tr><td>Pack Contents</td><td>Corner cleats, drainage caps, fixing screws</td></tr><tr><td>Sold As</td><td>Set, per window unit</td></tr><tr><td>Material</td><td>uPVC / galvanized steel fixings</td></tr><tr><td>Compatibility</td><td>KAKA 2-track & 3-track window ranges</td></tr></tbody></table><p style="margin-top:10px;font-size:.85em;opacity:.75">Typical specifications for this product class — exact technical data sheet available on request.</p>',
       name: "KAKA Corner Cleat & Fittings Set",
       image:
-        "https://images.pexels.com/photos/8983882/pexels-photo-8983882.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://5.imimg.com/data5/PC/EK/DI/SELLER-85998975/ducting-accessories-clamp-cleat-tdf-corner-500x500.jpg",
     },
   ],
   CERA: [
