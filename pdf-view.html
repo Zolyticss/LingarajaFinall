@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Datasheet — LINGARAJA</title>
+    <link rel="icon" href="lingaraja-icon.png" type="image/png" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background: var(--charcoal, #0a0a0a);
+        min-height: 100vh;
+      }
+      .pdfv-bar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+        padding: 16px 24px;
+        background: #101010;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .pdfv-id {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        min-width: 0;
+      }
+      .pdfv-id .logo-mark {
+        width: 38px;
+        height: 38px;
+        flex: 0 0 auto;
+        background: var(--accent, #e0212c);
+        clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .pdfv-id .logo-mark svg {
+        width: 58%;
+        height: 58%;
+        color: #fff;
+      }
+      .pdfv-id div {
+        min-width: 0;
+      }
+      .pdfv-id b {
+        display: block;
+        color: #fff;
+        font-family: "Oswald", sans-serif;
+        letter-spacing: 0.03em;
+        font-size: 0.98rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 52vw;
+      }
+      .pdfv-id small {
+        display: block;
+        color: rgba(255, 255, 255, 0.55);
+        font-size: 0.74rem;
+        letter-spacing: 0.04em;
+      }
+      .pdfv-actions {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .pdfv-status {
+        font-size: 0.72rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.55);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .pdfv-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #16a34a;
+        box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.6);
+        animation: pdfvPulse 1.6s infinite;
+      }
+      @keyframes pdfvPulse {
+        0% {
+          box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.55);
+        }
+        70% {
+          box-shadow: 0 0 0 8px rgba(22, 163, 74, 0);
+        }
+        100% {
+          box-shadow: 0 0 0 0 rgba(22, 163, 74, 0);
+        }
+      }
+      .pdfv-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        border-radius: 999px;
+        padding: 10px 18px;
+        font-family: "Oswald", sans-serif;
+        font-size: 0.76rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: #fff;
+        background: transparent;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+      .pdfv-btn:hover {
+        border-color: #fff;
+      }
+      .pdfv-btn.solid {
+        background: var(--accent, #e0212c);
+        border-color: var(--accent, #e0212c);
+      }
+      .pdfv-btn.solid:hover {
+        filter: brightness(1.08);
+      }
+      .pdfv-stage {
+        padding: 22px 24px 60px;
+        max-width: 980px;
+        margin: 0 auto;
+      }
+      .pdfv-frame-wrap {
+        background: #fff;
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 30px 70px -30px rgba(0, 0, 0, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .pdfv-frame-wrap iframe {
+        width: 100%;
+        height: 82vh;
+        min-height: 520px;
+        border: 0;
+        display: block;
+      }
+      .pdfv-note {
+        margin-top: 16px;
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        line-height: 1.6;
+      }
+      .pdfv-note b {
+        color: rgba(255, 255, 255, 0.85);
+      }
+      .pdfv-toast {
+        position: fixed;
+        bottom: 26px;
+        left: 50%;
+        transform: translateX(-50%) translateY(20px);
+        background: #16a34a;
+        color: #fff;
+        padding: 12px 20px;
+        border-radius: 10px;
+        font-size: 0.82rem;
+        font-family: "Inter", sans-serif;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s ease;
+        box-shadow: 0 14px 30px -10px rgba(0, 0, 0, 0.5);
+        z-index: 20;
+      }
+      .pdfv-toast.show {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+      @media (max-width: 720px) {
+        .pdfv-id b {
+          max-width: 44vw;
+        }
+        .pdfv-frame-wrap iframe {
+          height: 62vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pdfv-bar">
+      <div class="pdfv-id">
+        <div class="logo-mark">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 22h36l4 8-6 26H16L10 30z"/><path d="M14 22l4-8h28l4 8"/><path d="M22 30h20M20 38h24M21 46h22"/></svg>
+        </div>
+        <div>
+          <b id="pdfvTitle">Product Datasheet</b>
+          <small id="pdfvSub">LINGARAJA Hardware &amp; Engineering</small>
+        </div>
+      </div>
+      <div class="pdfv-actions">
+        <span class="pdfv-status" id="pdfvStatus"
+          ><span class="pdfv-dot"></span> Preparing download&hellip;</span
+        >
+        <a href="javascript:window.close()" class="pdfv-btn"
+          ><i class="bi bi-x-lg"></i> Close</a
+        >
+        <a href="#" id="pdfvDownloadBtn" class="pdfv-btn solid"
+          ><i class="bi bi-download"></i> Download PDF</a
+        >
+      </div>
+    </div>
+
+    <div class="pdfv-stage">
+      <div
+        style="
+          background: #3f2d0a;
+          border: 1px solid #c2410c;
+          color: #ffd9a8;
+          border-radius: 10px;
+          padding: 12px 16px;
+          font-size: 0.82rem;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin-bottom: 16px;
+        "
+      >
+        <i class="bi bi-exclamation-triangle-fill"></i>
+        Sample document — this is a placeholder showing the datasheet format,
+        not the confirmed spec sheet for this SKU. WhatsApp our sales desk for
+        the exact specifications and current pricing.
+      </div>
+      <div class="pdfv-frame-wrap">
+        <iframe id="pdfvFrame" src="" title="Product datasheet preview"></iframe>
+      </div>
+      <p class="pdfv-note">
+        Viewing <b id="pdfvNoteName">a sample datasheet</b> for this product.
+        Your download will start automatically — if it doesn't, use the
+        <b>Download PDF</b> button above.
+      </p>
+    </div>
+
+    <div class="pdfv-toast" id="pdfvToast">
+      <i class="bi bi-check-circle-fill"></i> Download started
+    </div>
+
+    <script>
+      (function () {
+        const params = new URLSearchParams(window.location.search);
+        const file = params.get("file") || "lingaraja-product-datasheet-sample.pdf";
+        const name = params.get("name") || "Product Datasheet";
+        const brand = params.get("brand") || "";
+        const sku = params.get("sku") || "";
+
+        document.title = name + " — Datasheet | LINGARAJA";
+        document.getElementById("pdfvTitle").textContent = name;
+        document.getElementById("pdfvSub").textContent = [brand, sku ? "SKU " + sku : ""]
+          .filter(Boolean)
+          .join(" · ") || "LINGARAJA Hardware & Engineering";
+        document.getElementById("pdfvNoteName").textContent = name;
+
+        const frame = document.getElementById("pdfvFrame");
+        frame.src = file;
+
+        const downloadName =
+          (brand ? brand + "-" : "") +
+          name.replace(/[^a-z0-9]+/gi, "-").replace(/^-+|-+$/g, "").toLowerCase() +
+          "-datasheet.pdf";
+
+        const downloadBtn = document.getElementById("pdfvDownloadBtn");
+        downloadBtn.setAttribute("href", file);
+        downloadBtn.setAttribute("download", downloadName);
+
+        const statusEl = document.getElementById("pdfvStatus");
+        const toast = document.getElementById("pdfvToast");
+
+        function triggerDownload() {
+          const a = document.createElement("a");
+          a.href = file;
+          a.download = downloadName;
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+
+          statusEl.innerHTML = '<span class="pdfv-dot" style="animation:none;background:#16a34a"></span> Downloaded';
+          toast.classList.add("show");
+          setTimeout(() => toast.classList.remove("show"), 3200);
+        }
+
+        // Show the PDF for viewing first, then auto-start the download.
+        setTimeout(triggerDownload, 1400);
+
+        downloadBtn.addEventListener("click", function () {
+          toast.classList.add("show");
+          setTimeout(() => toast.classList.remove("show"), 3200);
+        });
+      })();
+    </script>
+  </body>
+</html>

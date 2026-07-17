@@ -1,0 +1,1181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      LINGARAJA | Industrial Hardware &amp; Engineering Products — BULL, ECO,
+      WORTEX, ACC, ASTRAL, GOVINDA, KAKA &amp; CERA
+    </title>
+    <meta
+      name="description"
+      content="LINGARAJA is a premium industrial hardware and engineering products house delivering power tools, pumps, cement, TMT, bathware, uPVC systems and tile adhesives across eight trusted brands — BULL, ECO, WORTEX, ACC, ASTRAL, GOVINDA, KAKA and CERA StyleFix."
+    />
+    <link rel="icon" href="lingaraja-icon.png" type="image/png" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .sr-wrap {
+        position: relative;
+      }
+      #site-search-results {
+        display: none;
+        position: absolute;
+        top: calc(100% + 10px);
+        left: 0;
+        right: 0;
+        background: var(--panel);
+        border: 1px solid var(--steel-line);
+        border-radius: 10px;
+        padding: 8px;
+        z-index: 50;
+        max-height: 340px;
+        overflow: auto;
+        box-shadow: var(--shadow);
+      }
+      .sr-item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 10px 12px;
+        border-radius: 8px;
+        font-size: 0.85rem;
+      }
+      .sr-item:hover {
+        background: var(--panel-2);
+      }
+      .sr-brand {
+        font-family: "Oswald", sans-serif;
+        font-size: 0.66rem;
+        letter-spacing: 0.1em;
+        color: var(--red);
+        border: 1px solid var(--red);
+        padding: 2px 7px;
+        border-radius: 10px;
+      }
+      .sr-item small {
+        margin-left: auto;
+        color: var(--mute-2);
+      }
+      .sr-empty {
+        padding: 14px;
+        color: var(--mute-2);
+        font-size: 0.85rem;
+      }
+      .hero-search {
+        display: flex;
+        gap: 0;
+        max-width: 460px;
+        margin-top: 8px;
+        border: 1px solid var(--steel-line);
+        border-radius: 2px;
+        overflow: hidden;
+        background: var(--panel);
+        margin-left: 60px;
+      }
+      .hero-search input {
+        flex: 1;
+        background: transparent;
+        border: none;
+        padding: 14px 16px;
+        color: #0a0a0a;
+        font-size: 0.9rem;
+      }
+      .hero-search input:focus {
+        outline: none;
+      }
+      .hero-search button {
+        background: var(--accent);
+        border: none;
+        color: #fff;
+        padding: 0 20px;
+      }
+
+      /* ===== Hero text block: left-align instead of centered ===== */
+      .hero-content,
+      .hero-content .eyebrow,
+      .hero-content h1,
+      .hero-content p {
+        text-align: left !important;
+        margin-left: 60px;
+      }
+      .hero-content .eyebrow {
+        justify-content: flex-start !important;
+        margin-left: 60px;
+      }
+      .hero-content .hero-cta,
+      .hero-content .hero-stats {
+        justify-content: flex-start !important;
+        margin-left: 60px;
+      }
+      .hero-content {
+        margin-left: 0 !important;
+        margin-right: auto !important;
+      }
+
+      /* ===== Hero carousel: no more flat black card / white badge ===== */
+      .hero-visual,
+      .hcarousel,
+      .hcarousel-track {
+        height: 500px;
+      }
+      /* IMPORTANT: keep position:absolute + inset:0 here — this is what makes
+         all 4 slides stack on top of one another so main.js can cross-fade
+         between them via the .active class. Do NOT change to `relative`,
+         that breaks the carousel (only the first slide stays visible). */
+      .hcarousel-slide {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        border-radius: 20px;
+        background: linear-gradient(
+          150deg,
+          var(--bc) 0%,
+          color-mix(in srgb, var(--bc) 35%, #0a0a0a) 55%,
+          #0a0a0a 100%
+        );
+      }
+      .hcarousel-logo-bg {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none;
+        z-index: 0;
+      }
+      .hcarousel-logo-bg img {
+        width: 72%;
+        height: 72%;
+        object-fit: contain;
+        opacity: 0.24;
+        filter: brightness(0) invert(1);
+      }
+      /* small top-left logo badge — restored and made visible again
+         (this was accidentally hidden before) */
+      .hcarousel-mark {
+        display: flex !important;
+      }
+      .hcarousel-body {
+        position: relative;
+        z-index: 1;
+      }
+
+      /* ===== Brand grid: image-only cards (no SVG icons) ===== */
+      .brand-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+      }
+      @media (max-width: 1100px) {
+        .brand-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (max-width: 560px) {
+        .brand-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .brand-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background: var(--panel);
+        border: 1px solid var(--steel-line);
+        border-radius: var(--radius, 14px);
+        padding: 28px 26px 26px;
+        text-decoration: none;
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease,
+          border-color 0.2s ease;
+      }
+      .brand-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow);
+        border-color: var(--bc);
+      }
+      .brand-card .brand-tag {
+        align-self: flex-start;
+        font-family: "Oswald", sans-serif;
+        font-size: 0.68rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--bc);
+        border: 1px solid var(--bc);
+        padding: 4px 10px;
+        border-radius: 20px;
+        margin-bottom: 18px;
+      }
+      .brand-logo-box {
+        width: 96px;
+        height: 96px;
+        border-radius: 16px;
+        background: #ffffff;
+        border: 1px solid var(--steel-line);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        overflow: hidden;
+      }
+      .brand-logo-box img {
+        max-width: 78%;
+        max-height: 78%;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        display: block;
+      }
+      .brand-card h3 {
+        font-family: "Oswald", sans-serif;
+        letter-spacing: 0.02em;
+        color: #0a0a0a;
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+      }
+      .brand-card p {
+        color: var(--mute);
+        font-size: 0.92rem;
+        line-height: 1.6;
+        margin-bottom: 22px;
+        flex-grow: 1;
+      }
+      .brand-card .btn-ghost {
+        align-self: flex-start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container">
+        <div class="topbar-links">
+          <span><i class="bi bi-telephone"></i> +91 522 435 6789</span>
+          <span><i class="bi bi-envelope"></i> sales@lingaraja.in</span>
+          <span
+            ><i class="bi bi-geo-alt"></i> Lucknow, Uttar Pradesh, India</span
+          >
+        </div>
+        <div class="topbar-links">
+          <a href="downloads.html">Download Catalogue</a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav-row">
+        <a href="index.html" class="logo">
+          <div class="logo-mark logo-mark--icon">
+            <img src="lingaraja-icon.png" alt="LINGARAJA" />
+          </div>
+          <div class="logo-text">
+            <b>LINGARAJA</b><small>HARDWARE &amp; ENGINEERING</small>
+          </div>
+        </a>
+        <nav class="main-nav">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About Us</a>
+          <div class="has-mega">
+            <a href="brands.html"
+              >Brands
+              <i class="bi bi-chevron-down" style="font-size: 0.6rem"></i
+            ></a>
+            <div class="mega">
+              <div>
+                <div class="mega-col-title">BULL</div>
+                <a href="brand-bull.html">Overview &amp; Catalogue</a>
+                <a href="brand-bull.html#products">All 35 Products</a>
+              </div>
+              <div>
+                <div class="mega-col-title">ECO</div>
+                <a href="brand-eco.html">Overview &amp; Catalogue</a>
+                <a href="brand-eco.html#products">All 42 Products</a>
+              </div>
+              <div>
+                <div class="mega-col-title">WORTEX</div>
+                <a href="brand-wortex.html">Overview &amp; Catalogue</a>
+                <a href="brand-wortex.html#products">All 64 Products</a>
+              </div>
+              <div>
+                <div class="mega-col-title">ACC</div>
+                <a href="brand-acc.html">Overview &amp; Catalogue</a>
+                <a href="brand-acc.html#products"
+                  >Cement &amp; Building Materials</a
+                >
+              </div>
+              <div>
+                <div class="mega-col-title">ASTRAL</div>
+                <a href="brand-astral.html">Overview &amp; Catalogue</a>
+                <a href="brand-astral.html#products"
+                  >Bathware &amp; Sanitaryware</a
+                >
+              </div>
+              <div>
+                <div class="mega-col-title">GOVINDA</div>
+                <a href="brand-govinda.html">Overview &amp; Catalogue</a>
+                <a href="brand-govinda.html#products">TMT Bars &amp; Rebar</a>
+              </div>
+              <div>
+                <div class="mega-col-title">KAKA</div>
+                <a href="brand-kaka.html">Overview &amp; Catalogue</a>
+                <a href="brand-kaka.html#products">uPVC Windows &amp; Doors</a>
+              </div>
+              <div>
+                <div class="mega-col-title">CERA</div>
+                <a href="brand-cera.html">Overview &amp; Catalogue</a>
+                <a href="brand-cera.html#products"
+                  >Tile Adhesives &amp; Grouts</a
+                >
+              </div>
+            </div>
+          </div>
+          <a href="industries.html">Industries</a>
+          <a href="downloads.html">Downloads</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-cta">
+          <a class="icon-btn" href="#" title="Search"
+            ><i class="bi bi-search"></i
+          ></a>
+          <a class="btn btn-primary btn-sm" href="contact.html">Get a Quote</a>
+          <button class="burger"><i class="bi bi-list"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-bg">
+        <div class="orb o1"></div>
+        <div class="orb o2"></div>
+        <div class="beam b1"></div>
+        <div class="beam b2"></div>
+      </div>
+      <div class="hero-plate"></div>
+      <div class="hero-visual">
+        <div class="hcarousel">
+          <div class="hcarousel-track">
+            <div class="hcarousel-slide active" style="--bc: #e0212c">
+              <div class="hcarousel-logo-bg" aria-hidden="true">
+                <img src="bull-logo.png" alt="" />
+              </div>
+              <div class="hcarousel-mark">
+                <img src="bull-logo.png" alt="BULL" />
+              </div>
+              <div class="hcarousel-body">
+                <span>Power Tools &middot; 35 SKUs</span>
+                <h3>BULL</h3>
+                <p>
+                  Built Tough. Built to Last. Heavy-duty grinders, drills &amp;
+                  cutting tools.
+                </p>
+              </div>
+            </div>
+            <div class="hcarousel-slide" style="--bc: #15803d">
+              <div class="hcarousel-logo-bg" aria-hidden="true">
+                <img src="ECO_20210816.png" alt="" />
+              </div>
+              <div class="hcarousel-mark">
+                <img src="ECO_20210816.png" alt="ECO" />
+              </div>
+              <div class="hcarousel-body">
+                <span>Pumps &amp; Air Systems &middot; 42 SKUs</span>
+                <h3>ECO</h3>
+                <p>
+                  Precision Engineered for Every Industry. Compressors, valves
+                  &amp; pumps.
+                </p>
+              </div>
+            </div>
+            <div class="hcarousel-slide" style="--bc: #6d28d9">
+              <div class="hcarousel-logo-bg" aria-hidden="true">
+                <img src="wortex-logo.png" alt="" />
+              </div>
+              <div class="hcarousel-mark">
+                <img src="wortex-logo.png" alt="WORTEX" />
+              </div>
+              <div class="hcarousel-body">
+                <span>Precision Tools &middot; 64 SKUs</span>
+                <h3>WORTEX</h3>
+                <p>
+                  Precision. Control. Consistency. Import-grade finish, domestic
+                  price.
+                </p>
+              </div>
+            </div>
+            <div class="hcarousel-slide" style="--bc: #8a6d3b">
+              <div class="hcarousel-logo-bg" aria-hidden="true">
+                <img src="acc-logo.png" alt="" />
+              </div>
+              <div class="hcarousel-mark">
+                <img src="acc-logo.png" alt="ACC" />
+              </div>
+              <div class="hcarousel-body">
+                <span>Cement &amp; Building Materials</span>
+                <h3>ACC</h3>
+                <p>
+                  OPC, PPC &amp; PSC cement — authorised dealer supply for site
+                  &amp; RMC use.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="hcarousel-nav prev" aria-label="Previous">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button class="hcarousel-nav next" aria-label="Next">
+            <i class="bi bi-chevron-right"></i>
+          </button>
+          <div class="hcarousel-dots"></div>
+        </div>
+      </div>
+      <div class="container hero-content">
+        <div class="eyebrow">Est. 2025 &middot; Industrial Hardware Group</div>
+        <h1>Engineering<br />Power That <span>Performs.</span></h1>
+        <p>
+          LINGARAJA houses eight trusted brands — BULL, ECO, WORTEX, ACC,
+          ASTRAL, GOVINDA, KAKA and CERA StyleFix — delivering power tools,
+          pumps, cement, TMT, bathware, uPVC systems and tile adhesives to
+          industries, contractors and dealers across India.
+        </p>
+        <div class="sr-wrap">
+          <div class="hero-search">
+            <input
+              type="text"
+              id="site-search"
+              placeholder="Search by product, SKU or brand..."
+            />
+            <button type="button"><i class="bi bi-search"></i></button>
+          </div>
+          <div id="site-search-results"></div>
+        </div>
+        <div class="hero-cta" style="margin-top: 26px">
+          <a href="brands.html" class="btn btn-primary"
+            >Explore Brands <i class="bi bi-arrow-right"></i
+          ></a>
+          <a href="downloads.html" class="btn btn-ghost">Download Catalogue</a>
+        </div>
+        <div class="hero-stats">
+          <div><b data-count="153">0</b><span>SKUs Listed</span></div>
+          <div><b data-count="8">0</b><span>Brands</span></div>
+          <div><b data-count="12">0</b><span>Industries Served</span></div>
+          <div><b data-count="24">0</b><span>Cities Delivered To</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker">
+      <div class="ticker-track">
+        <span
+          ><i class="bi bi-shield-check"></i> ISO-Referenced Quality
+          Checks</span
+        >
+        <span><i class="bi bi-truck"></i> Pan-India Dealer Delivery</span>
+        <span
+          ><i class="bi bi-tools"></i> BULL &middot; ECO &middot; WORTEX
+          &middot; ACC</span
+        >
+        <span><i class="bi bi-headset"></i> Dedicated B2B Support Desk</span>
+        <span
+          ><i class="bi bi-shield-check"></i> ISO-Referenced Quality
+          Checks</span
+        >
+        <span><i class="bi bi-truck"></i> Pan-India Dealer Delivery</span>
+        <span
+          ><i class="bi bi-tools"></i> BULL &middot; ECO &middot; WORTEX
+          &middot; ACC</span
+        >
+        <span><i class="bi bi-headset"></i> Dedicated B2B Support Desk</span>
+      </div>
+    </div>
+
+    <!-- Company intro -->
+    <section class="section">
+      <div class="container grid-2" style="align-items: center; gap: 60px">
+        <div data-reveal>
+          <div class="eyebrow">Who We Are</div>
+          <h2
+            style="
+              font-size: clamp(1.8rem, 3vw, 2.5rem);
+              color: #0a0a0a;
+              margin-bottom: 20px;
+            "
+          >
+            Multiple Brands. One Standard of Engineering.
+          </h2>
+          <p style="color: var(--mute); line-height: 1.8; margin-bottom: 20px">
+            LINGARAJA is built on a single premise — that industrial hardware
+            should be dependable first. Every SKU that carries the BULL, ECO or
+            WORTEX name is catalogued, tested against its HS classification, and
+            backed by a support desk that understands the shop floor.
+          </p>
+          <p style="color: var(--mute); line-height: 1.8; margin-bottom: 32px">
+            From heavy-duty grinders to precision compressors and water pumps,
+            our catalogue spans
+            <strong style="color: #0a0a0a">153+ active SKUs</strong> curated for
+            contractors, dealers and industrial buyers.
+          </p>
+          <div style="display: flex; gap: 34px">
+            <div>
+              <b
+                style="
+                  font-family: &quot;Oswald&quot;, sans-serif;
+                  font-size: 1.8rem;
+                  color: #0a0a0a;
+                  display: block;
+                "
+                >8+</b
+              ><span style="color: var(--mute-2); font-size: 0.8rem"
+                >Months In-Market</span
+              >
+            </div>
+            <div>
+              <b
+                style="
+                  font-family: &quot;Oswald&quot;, sans-serif;
+                  font-size: 1.8rem;
+                  color: #0a0a0a;
+                  display: block;
+                "
+                >153</b
+              ><span style="color: var(--mute-2); font-size: 0.8rem"
+                >Catalogued SKUs</span
+              >
+            </div>
+            <div>
+              <b
+                style="
+                  font-family: &quot;Oswald&quot;, sans-serif;
+                  font-size: 1.8rem;
+                  color: #0a0a0a;
+                  display: block;
+                "
+                >8</b
+              ><span style="color: var(--mute-2); font-size: 0.8rem"
+                >House Brands</span
+              >
+            </div>
+          </div>
+        </div>
+        <div data-reveal style="position: relative">
+          <div
+            style="
+              aspect-ratio: 4/5;
+              border-radius: var(--radius);
+              overflow: hidden;
+              border: 1px solid var(--steel-line);
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              grid-template-rows: 1.2fr 1fr;
+              gap: 4px;
+              background: var(--steel-line);
+            "
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTGNGfaWm45TDGoC1aGVi3m-8qOu-GAAE6jOVuU6rpjU3sFomYjmmtgDUmhKelJb6yN91FNMgDSJb-O9xSdsJH6ZIJ9pNX10NxE85JMlbVLSkxt9liFKO6h"
+              alt="Angle grinder in use"
+              style="
+                grid-column: 1 / 3;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              "
+              loading="lazy"
+            />
+            <img
+              src="https://images.pexels.com/photos/6790105/pexels-photo-6790105.jpeg?auto=compress&cs=tinysrgb&w=400"
+              alt="Power drill"
+              style="width: 100%; height: 100%; object-fit: cover"
+              loading="lazy"
+            />
+            <img
+              src="https://images.pexels.com/photos/9754814/pexels-photo-9754814.jpeg?auto=compress&cs=tinysrgb&w=400"
+              alt="Industrial air compressor"
+              style="width: 100%; height: 100%; object-fit: cover"
+              loading="lazy"
+            />
+          </div>
+          <div
+            style="
+              position: absolute;
+              bottom: -20px;
+              left: -20px;
+              background: var(--accent);
+              color: #fff;
+              padding: 20px 26px;
+              border-radius: 10px;
+              box-shadow: var(--shadow);
+            "
+          >
+            <b
+              style="
+                font-family: &quot;Oswald&quot;, sans-serif;
+                font-size: 1.6rem;
+                display: block;
+              "
+              >Made for</b
+            >
+            <span
+              style="
+                font-size: 0.82rem;
+                letter-spacing: 0.06em;
+                text-transform: uppercase;
+              "
+              >Heavy-Duty Use</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand showcase -->
+    <section
+      class="section"
+      style="
+        background: var(--panel-2);
+        border-top: 1px solid var(--steel-line);
+        border-bottom: 1px solid var(--steel-line);
+      "
+    >
+      <div class="container">
+        <div class="section-head center" style="margin-bottom: 60px">
+          <div class="eyebrow" style="justify-content: center">Our Brands</div>
+          <h2>Built Around Eight Identities</h2>
+          <p>
+            Each brand carries its own colour, character and product focus —
+            browse the one that matches your job.
+          </p>
+        </div>
+        <div class="brand-grid">
+          <a
+            href="brand-bull.html"
+            class="brand-card"
+            style="--bc: #e0212c"
+            data-reveal
+          >
+            <span class="brand-tag">Power Tools</span>
+            <div class="brand-logo-box">
+              <img src="BULL.png" alt="BULL logo" />
+            </div>
+            <h3>BULL</h3>
+            <p>
+              Rugged angle grinders, drills and cutting tools engineered for
+              continuous heavy-duty jobsite use.
+            </p>
+            <span class="btn btn-ghost"
+              >View Catalogue <i class="bi bi-arrow-right"></i
+            ></span>
+          </a>
+          <a
+            href="brand-eco.html"
+            class="brand-card"
+            style="--bc: #16a34a"
+            data-reveal
+          >
+            <span class="brand-tag">Pumps &amp; Air Systems</span>
+            <div class="brand-logo-box">
+              <img src="ECO_20210816.png" alt="ECO logo" />
+            </div>
+            <h3>ECO</h3>
+            <p>
+              Compressors, valves and water pumps built for reliable, efficient
+              industrial fluid &amp; air handling.
+            </p>
+            <span class="btn btn-ghost"
+              >View Catalogue <i class="bi bi-arrow-right"></i
+            ></span>
+          </a>
+          <a
+            href="brand-wortex.html"
+            class="brand-card"
+            style="--bc: #6d28d9"
+            data-reveal
+          >
+            <span class="brand-tag">Precision Tools</span>
+            <div class="brand-logo-box">
+              <img src="WORTEX_20220811.png" alt="WORTEX logo" />
+            </div>
+            <h3>WORTEX</h3>
+            <p>
+              Precision-engineered grinders, saws and drills for professionals
+              who won't compromise on finish.
+            </p>
+            <span class="btn btn-ghost"
+              >View Catalogue <i class="bi bi-arrow-right"></i
+            ></span>
+          </a>
+          <a
+            href="brand-acc.html"
+            class="brand-card"
+            style="--bc: #8a6d3b"
+            data-reveal
+          >
+            <span class="brand-tag">Cement &amp; Building Materials</span>
+            <div class="brand-logo-box">
+              <img src="acc-cement-limited-logo-tagline.jpg" alt="ACC logo" />
+            </div>
+            <h3>ACC</h3>
+            <p>
+              OPC, PPC &amp; PSC cement and building-material solutions,
+              supplied through our authorised dealership.
+            </p>
+            <span class="btn btn-ghost"
+              >View Catalogue <i class="bi bi-arrow-right"></i
+            ></span>
+          </a>
+          <a
+            href="brand-astral.html"
+            class="brand-card"
+            style="--bc: #0891b2"
+            data-reveal
+          >
+            <span class="brand-tag">Bathware &amp; Sanitaryware</span>
+            <div class="brand-logo-box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzTw6GfVxRueuYvA6FUdmlVZyiFDoHQzRkNm8F6b0UfQ&s=10"
+                alt="Astral Bathware logo"
+              />
+            </div>
+            <h3>ASTRAL</h3>
+            <p>
+              Wash basins, shower systems, mixers and faucets, supplied through
+              our authorised Astral Bathware dealership.
+            </p>
+            <span class="btn btn-ghost"
+              >View Catalogue <i class="bi bi-arrow-right"></i
+            ></span>
+          </a>
+          <a
+            href="brand-govinda.html"
+            class="brand-card"
+            style="--bc: #c2410c"
+            data-reveal
+          >
+            <span class="brand-tag">TMT Bars &amp; Rebar</span>
+            <div class="brand-logo-box">
+              <img
+                src="https://www.govvindatmt.com/frontend/media/logo-dark.png"
+                alt="Govinda TMT logo"
+              />
+            </div>
+            <h3>GOVINDA</h3>
+            <p>
+              Fe415, Fe500D and Fe550D TMT rebar plus binding wire, supplied
+              through our authorised Govinda TMT dealership.
+            </p>
+            <span class="btn btn-ghost"
+              >View Catalogue <i class="bi bi-arrow-right"></i
+            ></span>
+          </a>
+          <a
+            href="brand-kaka.html"
+            class="brand-card"
+            style="--bc: #2563eb"
+            data-reveal
+          >
+            <span class="brand-tag">uPVC Windows &amp; Doors</span>
+            <div class="brand-logo-box">
+              <img
+                src="https://www.kakaprofile.com/wp-content/uploads/2023/03/Logo.svg"
+                alt="KAKA logo"
+              />
+            </div>
+            <h3>KAKA</h3>
+            <p>
+              Multi-chamber uPVC sliding &amp; casement windows, doors and mesh,
+              supplied through our authorised KAKA PVC dealership.
+            </p>
+            <span class="btn btn-ghost"
+              >View Catalogue <i class="bi bi-arrow-right"></i
+            ></span>
+          </a>
+          <a
+            href="brand-cera.html"
+            class="brand-card"
+            style="--bc: #0a66b3"
+            data-reveal
+          >
+            <span class="brand-tag">Tile Adhesives &amp; Grouts</span>
+            <div class="brand-logo-box">
+              <img
+                src="https://www.cera-india.com/themes/cera/images/icon-cera-logo.png"
+                alt="CERA logo"
+              />
+            </div>
+            <h3>CERA StyleFix</h3>
+            <p>
+              Tile &amp; stone adhesives, epoxy, cement grout and tiling
+              accessories, supplied through our authorised CERA StyleFix
+              dealership.
+            </p>
+            <span class="btn btn-ghost"
+              >View Catalogue <i class="bi bi-arrow-right"></i
+            ></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Featured Categories</div>
+          <h2>Shop by Category</h2>
+        </div>
+        <div class="grid-4">
+          <a
+            class="feat-card"
+            href="brands.html?filter=angle%20grinder#shop-by-category"
+            data-reveal
+          >
+            <div class="ic">
+              <i class="bi bi-lightning-charge" style="font-size: 1.4rem"></i>
+            </div>
+            <h4>Angle Grinders</h4>
+            <p>100mm to 230mm, 750W–2400W across BULL &amp; WORTEX.</p>
+          </a>
+          <a
+            class="feat-card"
+            href="brands.html?filter=drill%7Cdriver#shop-by-category"
+            data-reveal
+          >
+            <div class="ic">
+              <i class="bi bi-cpu" style="font-size: 1.4rem"></i>
+            </div>
+            <h4>Drills &amp; Drivers</h4>
+            <p>Impact drills, rotary hammers and cordless drivers.</p>
+          </a>
+          <a
+            class="feat-card"
+            href="brands.html?filter=pump%7Ccompressor%7Cvalve#shop-by-category"
+            data-reveal
+          >
+            <div class="ic">
+              <i class="bi bi-droplet" style="font-size: 1.4rem"></i>
+            </div>
+            <h4>Pumps &amp; Compressors</h4>
+            <p>Self-priming pumps, air compressors and valves from ECO.</p>
+          </a>
+          <a
+            class="feat-card"
+            href="brands.html?filter=saw%7Ccutting#shop-by-category"
+            data-reveal
+          >
+            <div class="ic">
+              <i class="bi bi-scissors" style="font-size: 1.4rem"></i>
+            </div>
+            <h4>Saws &amp; Cutting</h4>
+            <p>Circular, reciprocating &amp; petrol saws for site and shop.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="stats-strip">
+      <div><b data-count="167">0</b><span>Active SKUs</span></div>
+      <div><b data-count="8">0</b><span>House Brands</span></div>
+      <div><b data-count="12">0</b><span>Industries</span></div>
+      <div><b data-count="98">0</b><span>Dealer Partners</span></div>
+    </div>
+
+    <!-- Industries -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Where We Deliver</div>
+          <h2>Industries We Serve</h2>
+        </div>
+        <div class="grid-4">
+          <div class="feat-card" data-reveal>
+            <div class="ic">
+              <i class="bi bi-buildings" style="font-size: 1.3rem"></i>
+            </div>
+            <h4>Construction</h4>
+          </div>
+          <div class="feat-card" data-reveal>
+            <div class="ic">
+              <i
+                class="bi bi-gear-wide-connected"
+                style="font-size: 1.3rem"
+              ></i>
+            </div>
+            <h4>Manufacturing</h4>
+          </div>
+          <div class="feat-card" data-reveal>
+            <div class="ic">
+              <i class="bi bi-tree" style="font-size: 1.3rem"></i>
+            </div>
+            <h4>Woodworking</h4>
+          </div>
+          <div class="feat-card" data-reveal>
+            <div class="ic">
+              <i class="bi bi-droplet-half" style="font-size: 1.3rem"></i>
+            </div>
+            <h4>Water &amp; Utilities</h4>
+          </div>
+          <div class="feat-card" data-reveal>
+            <div class="ic">
+              <i class="bi bi-signpost-split" style="font-size: 1.3rem"></i>
+            </div>
+            <h4>Infrastructure</h4>
+          </div>
+          <div class="feat-card" data-reveal>
+            <div class="ic">
+              <i class="bi bi-house-gear" style="font-size: 1.3rem"></i>
+            </div>
+            <h4>MEP Contractors</h4>
+          </div>
+          <div class="feat-card" data-reveal>
+            <div class="ic">
+              <i class="bi bi-shop" style="font-size: 1.3rem"></i>
+            </div>
+            <h4>Hardware Retail</h4>
+          </div>
+          <div class="feat-card" data-reveal>
+            <div class="ic">
+              <i class="bi bi-truck-front" style="font-size: 1.3rem"></i>
+            </div>
+            <h4>Fleet &amp; Fabrication</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section
+      class="section"
+      style="
+        background: var(--panel-2);
+        border-top: 1px solid var(--steel-line);
+        border-bottom: 1px solid var(--steel-line);
+      "
+    >
+      <div class="container">
+        <div class="section-head center">
+          <div class="eyebrow" style="justify-content: center">
+            Testimonials
+          </div>
+          <h2>What Our Dealers Say</h2>
+        </div>
+        <div class="grid-3">
+          <div class="testi-card" data-reveal>
+            <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>
+              "BULL grinders have cut our warranty complaints in half compared
+              to our previous supplier. Stock availability is consistent too."
+            </p>
+            <div class="testi-who">
+              <div class="av">R</div>
+              <div>
+                <b>Rajeev Malhotra</b><span>Hardware Distributor, Kanpur</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card" data-reveal>
+            <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>
+              "ECO's compressor range runs quieter than anything else in this
+              price band. Our workshop clients ask for it by name now."
+            </p>
+            <div class="testi-who">
+              <div class="av">S</div>
+              <div><b>Sunita Verma</b><span>Workshop Owner, Lucknow</span></div>
+            </div>
+          </div>
+          <div class="testi-card" data-reveal>
+            <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>
+              "WORTEX finishing tools are the closest we've found to import
+              quality at a domestic price point."
+            </p>
+            <div class="testi-who">
+              <div class="av">A</div>
+              <div><b>Anil Kapoor</b><span>Contractor, Varanasi</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download / Contact CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-band" data-reveal>
+          <div>
+            <h3>Need the full LINGARAJA catalogue?</h3>
+            <p>
+              Download brand-wise SKU sheets or talk to our sales desk for bulk
+              pricing.
+            </p>
+          </div>
+          <div style="display: flex; gap: 14px; flex-wrap: wrap">
+            <a href="downloads.html" class="btn btn-ghost"
+              ><i class="bi bi-download"></i>&nbsp; Download Catalogue</a
+            >
+            <a href="contact.html" class="btn btn-primary">Contact Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section
+      class="section-tight"
+      style="
+        background: var(--charcoal);
+        border-top: 1px solid var(--steel-line);
+      "
+    >
+      <div
+        class="container"
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 24px;
+          flex-wrap: wrap;
+        "
+      >
+        <div>
+          <h3 style="color: #fff; font-size: 1.3rem">Stay Updated</h3>
+          <p style="color: var(--mute); font-size: 0.88rem; margin-top: 6px">
+            New SKUs, catalogue updates and dealer offers — straight to your
+            inbox.
+          </p>
+        </div>
+        <form
+          onsubmit="return false;"
+          style="
+            display: flex;
+            gap: 0;
+            max-width: 380px;
+            width: 100%;
+            border: 1px solid var(--steel-line);
+            border-radius: 2px;
+            overflow: hidden;
+          "
+        >
+          <input
+            type="email"
+            required
+            placeholder="Your email address"
+            style="
+              flex: 1;
+              background: var(--panel);
+              border: none;
+              padding: 14px 16px;
+              color: #0a0a0a;
+            "
+          />
+          <button class="btn btn-primary" style="border-radius: 0">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="logo"
+              ><div class="logo-mark logo-mark--icon">
+                <img src="lingaraja-icon.png" alt="LINGARAJA" />
+              </div>
+              <div class="logo-text">
+                <b>LINGARAJA</b><small>HARDWARE &amp; ENGINEERING</small>
+              </div></a
+            >
+            <p>
+              A premium industrial hardware group delivering power tools, pumps,
+              cement, TMT, bathware, uPVC systems and tile adhesives across
+              eight trusted brands — BULL, ECO, WORTEX, ACC, ASTRAL, GOVINDA,
+              KAKA and CERA StyleFix.
+            </p>
+            <div class="social-row">
+              <a class="icon-btn" href="#"><i class="bi bi-facebook"></i></a>
+              <a class="icon-btn" href="#"><i class="bi bi-instagram"></i></a>
+              <a class="icon-btn" href="#"><i class="bi bi-linkedin"></i></a>
+              <a class="icon-btn" href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+          <div>
+            <h5>Brands</h5>
+            <ul>
+              <li><a href="brand-bull.html">BULL</a></li>
+              <li><a href="brand-eco.html">ECO</a></li>
+              <li><a href="brand-wortex.html">WORTEX</a></li>
+              <li><a href="brand-acc.html">ACC</a></li>
+              <li><a href="brand-astral.html">ASTRAL</a></li>
+              <li><a href="brand-govinda.html">GOVINDA</a></li>
+              <li><a href="brand-kaka.html">KAKA</a></li>
+              <li><a href="brand-cera.html">CERA StyleFix</a></li>
+              <li><a href="brands.html">All Brands</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Company</h5>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="industries.html">Industries</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="downloads.html">Downloads</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Support</h5>
+            <ul>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="#">Enquiry Form</a></li>
+              <li><a href="#">WhatsApp Support</a></li>
+              <li><a href="#">Dealer Login</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Get In Touch</h5>
+            <p><i class="bi bi-geo-alt"></i> Lucknow, Uttar Pradesh, India</p>
+            <p><i class="bi bi-telephone"></i> +91 522 435 6789</p>
+            <p><i class="bi bi-envelope"></i> sales@lingaraja.in</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span
+            >&copy; 2026 LINGARAJA Hardware &amp; Engineering. All rights
+            reserved. <em style="opacity: 0.7">(Prototype site)</em></span
+          >
+          <span
+            ><a href="#">Privacy Policy</a> &middot;
+            <a href="#">Terms of Service</a></span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <a href="https://wa.me/919999999999" target="_blank" class="whatsapp-float"
+      ><i class="bi bi-whatsapp" style="font-size: 1.6rem"></i
+    ></a>
+    <button class="scroll-top"><i class="bi bi-arrow-up"></i></button>
+
+    <script src="products-data.js"></script>
+    <script src="products.js"></script>
+    <script src="main.js"></script>
+    <script>
+      // Home featured strip: 2 picks from each brand
+      const bc = { BULL: "#e0212c", ECO: "#16a34a", WORTEX: "#6d28d9" };
+      const picks = [];
+      ["BULL", "ECO", "WORTEX"].forEach((b) => {
+        LINGARAJA_PRODUCTS[b].slice(0, 3).forEach((p) => picks.push({ b, p }));
+      });
+      document.getElementById("home-featured").innerHTML = picks
+        .map((x, index) => lgProductCard(x.b, x.p, bc[x.b], index))
+        .join("");
+      window.__lgObserveReveal && window.__lgObserveReveal();
+    </script>
+  </body>
+</html>
